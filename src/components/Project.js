@@ -1,21 +1,25 @@
-import React from 'react';
+import React from "react";
+import styles from "./Project.module.css";
 
-const Project = props => {
-    return (
-        <div className='work'>
-            <h3>{props.name}</h3>
+const Project = (props) => {
+  return (
+    <div className={styles["work"]}>
+      <h3>{props.name}</h3>
 
-            <hr />
+      {props.tags.map((tag) => {
+        return (
+          <>
+            <b>{tag}</b>
+            <br />
+          </>
+        );
+      })}
 
-            {props.tags.map((t) => {
-                <b>{t.name}</b>
-            })}
+      <hr />
 
-            <hr />
-
-            <p>{props.about}</p>
-        </div>
-    )
-}
+      <p>{props.about}</p>
+    </div>
+  );
+};
 
 export default Project;
