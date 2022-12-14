@@ -121,11 +121,6 @@ footer {
   color: var(--color1);
 }
 
-.headbeat {
-  display: flex;
-  justify-content: center;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -157,6 +152,12 @@ footer {
   padding-top: 102px;
 }
 
+.headbeat {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
 .project_list {
   display: flex;
   align-items: baseline;
@@ -165,6 +166,15 @@ footer {
 
 @media (max-width: 768px) {
   .project_list {
+    flex-direction: column;
+  }
+
+  .headbeat {
+    flex-direction: column;
+  }
+
+  .enterance_area {
+    display: flex;
     flex-direction: column;
   }
 }
