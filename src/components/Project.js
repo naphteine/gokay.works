@@ -6,18 +6,22 @@ const Project = (props) => {
     <div className={styles["work"]}>
       <h3>{props.name}</h3>
 
-      {props.tags.map((tag) => {
-        return (
-          <>
-            <b>{tag}</b>
-            <br />
-          </>
-        );
-      })}
+      <em>
+        {props.tags.map((tag) => {
+          return (
+            <>{tag}{" "}</>
+          );
+        })}
+      </em>
 
       <hr />
 
       <p>{props.about}</p>
+
+      {props.link ?
+        (<em><a href={props.link}>Link</a></em>)
+        : (<></>)
+      }
     </div>
   );
 };
