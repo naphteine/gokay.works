@@ -39,12 +39,12 @@ export default function Home() {
         <div className={styles.headbeat}>
           <div className={`${styles.enterance} ${styles.area}`}>
             <div className={styles.enter_text}>
-              <h1>Hello, I'm Gökay</h1>
+              <h1>Hello, I&apos;m<br />Gökay Gültekin</h1>
               <h2>I develop highly responsible, modern websites</h2>
               <a href="#contact" className={styles.button}>Hire now</a>
             </div>
             <div className={styles.foto_area}>
-              <Image className={styles.foto} placeholder="blur" src={me} />
+              <Image alt="Gökay Gültekin" className={styles.foto} placeholder="blur" src={me} />
             </div>
           </div>
         </div>

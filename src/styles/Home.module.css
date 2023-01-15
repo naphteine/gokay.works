@@ -113,8 +113,8 @@
 
 .foto {
   border-radius: 180px;
-  max-height: auto;
-  width: 100%;
+  min-width: 250px;
+  width: 70%;
   height: 25%;
   filter: grayscale(60%);
   transition: all 0.5s;
