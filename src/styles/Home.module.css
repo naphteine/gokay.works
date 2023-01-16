@@ -148,15 +148,20 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .project_list {
     flex-direction: column;
     align-items: center;
   }
 
-  .headbeat {
+  .enterance {
     flex-direction: column;
   }
+
+  .foto {
+    height: 100%;
+  }
+
 
   .enterance_area {
     display: flex;

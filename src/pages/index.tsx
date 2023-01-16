@@ -126,7 +126,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className={styles.footer}>All rights reserved. 2022. Gökay Gültekin.</footer>
+      <footer className={styles.footer}>All rights reserved (c) 2022-2023. Gökay Gültekin.</footer>
     </>
   )
 }
