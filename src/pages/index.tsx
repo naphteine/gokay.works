@@ -21,7 +21,7 @@ export default function Home() {
         <nav className={styles.header}>
           <ul>
             <li>
-              <a href="https://blog.gguilt.com">Blog</a>
+              <a href="https://blog.gokaygultekin.dev">Blog</a>
             </li>
             <li>
               <a href="#about" className={`${styles.btn} ${styles["btn-primary"]}`}>
