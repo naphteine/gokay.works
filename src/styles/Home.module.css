@@ -1,5 +1,5 @@
 .area {
-  filter: grayscale(60%);
+  filter: grayscale(100%);
   border-radius: 180px;
   transition: all 0.5s;
 }
@@ -116,8 +116,8 @@
   min-width: 250px;
   width: 70%;
   height: 25%;
-  filter: grayscale(60%);
   transition: all 0.5s;
+  filter: none;
 }
 
 .foto:hover {
