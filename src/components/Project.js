@@ -9,7 +9,7 @@ const Project = (props) => {
       <em>
         {props.tags.map((tag) => {
           return (
-            <>{tag}{" "}</>
+            <span key={tag}>{tag}{" "}</span>
           );
         })}
       </em>
@@ -20,6 +20,14 @@ const Project = (props) => {
 
       {props.link ?
         (<em><a href={props.link}>Link</a></em>)
+        : (<></>)
+      }
+
+      {props.source ?
+        (<>
+          <br />
+          <em><a href={props.source}>Source</a></em>
+        </>)
         : (<></>)
       }
     </div>

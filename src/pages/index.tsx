@@ -82,24 +82,93 @@ export default function Home() {
             <Project
               name="Nitoji"
               about="Japanese-Turkish Dictionary"
-              tags={["react", "golang", "typescript"]}
+              tags={["next", "react", "typescript", "supabase"]}
               link="https://nitoji.duga1.com"
             />
             <Project
               name="UsagiSözlük"
               about="Beauty products social media"
-              tags={["react", "golang", "typescript"]}
+              tags={["next", "react", "typescript", "supabase"]}
+              link="https://usagi.duga1.com"
             />
             <Project
               name="Misfits Cosplay"
               about="Cosplay team website"
-              tags={["next"]}
-              link="https://misfitscos.vercel.app"
+              tags={["next", "react"]}
+              link="https://misfits.duga1.com"
             />
+            <Project
+              name="pati"
+              about="Paticafe fictional shop website"
+              tags={["react", "bootstrap"]}
+              link="https://pati.duga1.com"
+            />
+            <Project
+              name="cyberia"
+              about="Fictional programming learning platform"
+              tags={["next", "react"]}
+              link="https://cyberia.duga1.com"
+            />
+          </div>
+        </section>
+
+        <section id="projects" className={styles.area}>
+          <h2 className={styles.part_header}>
+            <div className={styles.centeredThing}>
+              <span className={styles.lineInside}>
+                Open-source
+              </span>
+            </div>
+          </h2>
+          <div className={styles.project_list}>
             <Project
               name="Cryptbaba"
               about="Cryptocurrency experiment game"
-              tags={["react", "bootstrap"]}
+              tags={["next", "react"]}
+              link="https://cryptbaba.duga1.com"
+              source="https://github.com/gguilt/cryptbaba"
+            />
+            <Project
+              name="yakuza"
+              about="Idle Yakuza management game"
+              tags={["next", "react"]}
+              link="https://yakuza.duga1.com"
+              source="https://github.com/gguilt/yakuza"
+            />
+            <Project
+              name="DUGA-1"
+              about="Fictional hosting SaaS company website"
+              tags={["next", "react"]}
+              link="https://www.duga1.com"
+              source="https://github.com/gguilt/duga-1"
+            />
+            <Project
+              name="kantan"
+              about="To-do and calendar app"
+              tags={["next", "react"]}
+              link="https://kantan-gguilt.vercel.app"
+              source="https://github.com/gguilt/kantan"
+            />
+            <Project
+              name="nachrichten"
+              about="Map based RSS app"
+              tags={["next", "react"]}
+              link="https://nachrichten.duga1.com"
+              source="https://github.com/gguilt/nachrichten"
+            />
+            <Project
+              name="renance"
+              about="Expense tracker app"
+              tags={["next", "react"]}
+              link="https://renance.duga1.com"
+              source="https://github.com/gguilt/renance"
+            />
+            <Project
+              name="kusuri"
+              about="Medicine tracker app"
+              tags={["next", "react"]}
+              link="https://kusuri.duga1.com"
+              source="https://github.com/gguilt/kusuri"
             />
           </div>
         </section>
@@ -113,7 +182,7 @@ export default function Home() {
             </div>
           </h2>
           <p>
-            I am <b>looking</b> for a job. Preferably in Vienna, Austria.
+            I am <b>looking</b> for a job. Preferably in Austria.
           </p>
 
           <a href="mailto:ggltekn@gmail.com"><div className={styles.emailButton}>Send me an e-Mail</div></a>
