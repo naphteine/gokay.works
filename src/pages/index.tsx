@@ -104,24 +104,6 @@ export default function Home() {
               link="https://pati.duga1.com"
             />
             <Project
-              name="cyberia"
-              about="Fictional programming learning platform"
-              tags={["next", "react"]}
-              link="https://cyberia.duga1.com"
-            />
-          </div>
-        </section>
-
-        <section id="projects" className={styles.area}>
-          <h2 className={styles.part_header}>
-            <div className={styles.centeredThing}>
-              <span className={styles.lineInside}>
-                Open-source
-              </span>
-            </div>
-          </h2>
-          <div className={styles.project_list}>
-            <Project
               name="Cryptbaba"
               about="Cryptocurrency experiment game"
               tags={["next", "react"]}
@@ -148,20 +130,6 @@ export default function Home() {
               tags={["next", "react"]}
               link="https://kantan-gguilt.vercel.app"
               source="https://github.com/gguilt/kantan"
-            />
-            <Project
-              name="nachrichten"
-              about="Map based RSS app"
-              tags={["next", "react"]}
-              link="https://nachrichten.duga1.com"
-              source="https://github.com/gguilt/nachrichten"
-            />
-            <Project
-              name="renance"
-              about="Expense tracker app"
-              tags={["next", "react"]}
-              link="https://renance.duga1.com"
-              source="https://github.com/gguilt/renance"
             />
             <Project
               name="kusuri"
