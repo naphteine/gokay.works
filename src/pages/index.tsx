@@ -14,7 +14,6 @@ export default function Home() {
         <title>Gökay Gültekin</title>
         <meta name="description" content="Personal website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className={styles.app_header}>
@@ -86,16 +85,17 @@ export default function Home() {
               link="https://nitoji.duga1.com"
             />
             <Project
-              name="UsagiSözlük"
-              about="Beauty products social media"
-              tags={["next", "react", "typescript", "supabase"]}
-              link="https://usagi.duga1.com"
-            />
-            <Project
               name="Misfits Cosplay"
               about="Cosplay team website"
               tags={["next", "react"]}
               link="https://misfits.duga1.com"
+            />
+            {/*
+            <Project
+              name="UsagiSözlük"
+              about="Beauty products social media"
+              tags={["next", "react", "typescript", "supabase"]}
+              link="https://usagi.duga1.com"
             />
             <Project
               name="pati"
@@ -138,6 +138,7 @@ export default function Home() {
               link="https://kusuri.duga1.com"
               source="https://github.com/gguilt/kusuri"
             />
+            */}
           </div>
         </section>
 
