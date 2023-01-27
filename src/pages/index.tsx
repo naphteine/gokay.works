@@ -159,7 +159,7 @@ export default function Home() {
           <div className={styles.links}>
             <a href="mailto:ggltekn@gmail.com">Mail</a>
             <a href="https://www.linkedin.com/in/gokaygultekin">Linkedin</a>
-            <a href="https://www.github.com/gguilt">Github</a>
+            <a href="https://www.github.com/naphteine">Github</a>
           </div>
         </section>
       </main>
