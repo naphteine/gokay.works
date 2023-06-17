@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Project from "../components/Project";
 import me from "../../public/profile.jpg";
+import { RiMailLine, RiLinkedinFill, RiGithubFill } from "react-icons/ri";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -169,9 +170,15 @@ export default function Home() {
           </a>
 
           <div className={styles.links}>
-            <a href="mailto:ggltekn@gmail.com">Mail</a>
-            <a href="https://www.linkedin.com/in/gokaygultekin">Linkedin</a>
-            <a href="https://www.github.com/naphteine">Github</a>
+            <a href="mailto:ggltekn@gmail.com">
+              <RiMailLine size={28} />
+            </a>
+            <a href="https://www.linkedin.com/in/gokaygultekin">
+              <RiLinkedinFill size={28} />
+            </a>
+            <a href="https://www.github.com/naphteine">
+              <RiGithubFill size={28} />
+            </a>
           </div>
         </section>
       </main>
