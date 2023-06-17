@@ -55,7 +55,6 @@
 
 .app_header nav ul li {
   display: flex;
-
 }
 
 .enter_text {
@@ -130,7 +129,7 @@
   width: 100%;
 }
 
-.sticky+.content {
+.sticky + .content {
   padding-top: 102px;
 }
 
@@ -161,7 +160,6 @@
   .foto {
     height: 100%;
   }
-
 
   .enterance_area {
     display: flex;
@@ -240,6 +238,18 @@
   color: var(--color1);
   font-weight: 800;
   font-size: 1.3rem;
+}
+
+@media (max-width: 900px) {
+  .emailButton {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .emailButton {
+    max-width: 80%;
+  }
 }
 
 .emailButton:hover {
