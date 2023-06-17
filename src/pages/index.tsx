@@ -98,6 +98,12 @@ export default function Home() {
               link="https://www.nitoji.com"
             />
             <Project
+              name="Cryptbaba"
+              about="Cryptocurrency buy/sell game"
+              tags={["next.js", "react"]}
+              link="https://www.cryptbaba.com"
+            />
+            <Project
               name="Misfits Cosplay"
               about="Cosplay team website"
               tags={["next.js", "react"]}
@@ -115,13 +121,6 @@ export default function Home() {
               about="Paticafe fictional shop website"
               tags={["react", "bootstrap"]}
               link="https://pati.duga1.com"
-            />
-            <Project
-              name="Cryptbaba"
-              about="Cryptocurrency experiment game"
-              tags={["next", "react"]}
-              link="https://cryptbaba.duga1.com"
-              source="https://github.com/gguilt/cryptbaba"
             />
             <Project
               name="yakuza"
