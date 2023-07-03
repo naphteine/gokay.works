@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Project from "../components/Project";
 import me from "../../public/profile.jpg";
 import { RiMailLine, RiLinkedinFill, RiGithubFill } from "react-icons/ri";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,25 @@ export default function Home() {
         <meta name="description" content="Personal website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-2WZJDGK5K0"
+      />
+
+      <Script
+        strategy="afterInteractive"
+        id="google-analytics"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-2WZJDGK5K0');
+        `,
+        }}
+      />
 
       <header className={styles.app_header}>
         <nav className={styles.header}>
