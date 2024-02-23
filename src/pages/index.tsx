@@ -1,13 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Project from "../components/Project";
 import me from "../../public/profile.jpg";
 import { RiMailLine, RiLinkedinFill, RiGithubFill } from "react-icons/ri";
-import Script from "next/script";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -18,30 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-2WZJDGK5K0"
-      />
-
-      <Script
-        strategy="afterInteractive"
-        id="google-analytics"
-        dangerouslySetInnerHTML={{
-          __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-2WZJDGK5K0');
-        `,
-        }}
-      />
-
       <header className={styles.app_header}>
         <nav className={styles.header}>
           <ul>
             <li>
-              <a href="https://blog.gokaygultekin.dev">Blog</a>
+              <a href="https://blog.gokay.works">Blog</a>
             </li>
             <li>
               <a
@@ -115,62 +92,20 @@ export default function Home() {
               name="Nitoji"
               about="Japanese-Turkish Dictionary"
               tags={["next.js", "react", "typescript", "pocketbase"]}
-              link="https://www.nitoji.com"
+              link="https://nitoji.gokay.works"
             />
             <Project
               name="Cryptbaba"
               about="Cryptocurrency buy/sell game"
               tags={["next.js", "react"]}
-              link="https://www.cryptbaba.com"
+              link="https://cryptbaba.gokay.works"
             />
             <Project
               name="Misfits Cosplay"
               about="Cosplay team website"
               tags={["next.js", "react"]}
-              link="https://misfits.duga1.com"
+              link="https://misfits.gokay.works"
             />
-            {/*
-            <Project
-              name="UsagiSözlük"
-              about="Beauty products social media"
-              tags={["next", "react", "typescript", "supabase"]}
-              link="https://usagi.duga1.com"
-            />
-            <Project
-              name="pati"
-              about="Paticafe fictional shop website"
-              tags={["react", "bootstrap"]}
-              link="https://pati.duga1.com"
-            />
-            <Project
-              name="yakuza"
-              about="Idle Yakuza management game"
-              tags={["next", "react"]}
-              link="https://yakuza.duga1.com"
-              source="https://github.com/gguilt/yakuza"
-            />
-            <Project
-              name="DUGA-1"
-              about="Fictional hosting SaaS company website"
-              tags={["next", "react"]}
-              link="https://www.duga1.com"
-              source="https://github.com/gguilt/duga-1"
-            />
-            <Project
-              name="kantan"
-              about="To-do and calendar app"
-              tags={["next", "react"]}
-              link="https://kantan-gguilt.vercel.app"
-              source="https://github.com/gguilt/kantan"
-            />
-            <Project
-              name="kusuri"
-              about="Medicine tracker app"
-              tags={["next", "react"]}
-              link="https://kusuri.duga1.com"
-              source="https://github.com/gguilt/kusuri"
-            />
-            */}
           </div>
         </section>
 
@@ -203,7 +138,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        All rights reserved (c) 2022-2023. Gökay Gültekin.
+        All rights reserved (c) 2022-2024. Gökay Gültekin.
       </footer>
     </>
   );
