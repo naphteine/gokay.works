@@ -1,8 +1,59 @@
+import Image from "next/image";
+import me from "../../public/profile.jpg";
+
+export default function Home() {
+  return (
+    <main>
+      <header className="app_header">
+        <nav className="header">
+          <ul>
+            <li>
+              <a href="https://blog.gokay.works">Blog</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div className="headbeat">
+          <div className="enterance area">
+            <div className="enter_text">
+              <h1>
+                Hello, I&apos;m
+                <br />
+                Gökay Gültekin
+              </h1>
+              <h2>I develop highly responsible, modern websites</h2>
+              <a href="#contact" className="button">
+                Hire now
+              </a>
+            </div>
+            <div className="foto_area">
+              <Image
+                alt="Gökay Gültekin"
+                className="foto"
+                placeholder="blur"
+                src={me}
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+  );
+}
+
+/*
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Project from "../components/Project";
-import me from "../../public/profile.jpg";
 import { RiMailLine, RiLinkedinFill, RiGithubFill } from "react-icons/ri";
 
 export default function Home() {
@@ -13,53 +64,6 @@ export default function Home() {
         <meta name="description" content="Personal website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
-      <header className={styles.app_header}>
-        <nav className={styles.header}>
-          <ul>
-            <li>
-              <a href="https://blog.gokay.works">Blog</a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className={`${styles.btn} ${styles["btn-primary"]}`}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div className={styles.headbeat}>
-          <div className={`${styles.enterance} ${styles.area}`}>
-            <div className={styles.enter_text}>
-              <h1>
-                Hello, I&apos;m
-                <br />
-                Gökay Gültekin
-              </h1>
-              <h2>I develop highly responsible, modern websites</h2>
-              <a href="#contact" className={styles.button}>
-                Hire now
-              </a>
-            </div>
-            <div className={styles.foto_area}>
-              <Image
-                alt="Gökay Gültekin"
-                className={styles.foto}
-                placeholder="blur"
-                src={me}
-              />
-            </div>
-          </div>
-        </div>
-      </header>
 
       <main className={styles.App}>
         <section id="about" className={styles.area}>
@@ -143,3 +147,5 @@ export default function Home() {
     </>
   );
 }
+
+*/
