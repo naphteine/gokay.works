@@ -31,7 +31,7 @@ export default function Home() {
                 <br />
                 Gökay Gültekin
               </h1>
-              <h2>I develop highly responsible, modern websites</h2>
+              <h2>I develop highly responsible modern websites</h2>
               <a href="#contact" className="button">
                 Hire now
               </a>
@@ -74,7 +74,7 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        All rights reserved (c) 2022-2024. Gökay Gültekin.
+        All rights reserved © 2024 – Gökay Gültekin.
       </footer>
     </main>
   );
