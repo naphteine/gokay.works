@@ -50,9 +50,7 @@ export default function Home() {
 
       <section id="contact" className="area">
         <h2 className="part_header">
-          <div className="centeredThing">
-            <span className="lineInside">Contact</span>
-          </div>
+          <div className="centeredThing">Contact Me</div>
         </h2>
         <p>
           I am <b>looking</b> for a job. Preferably in Austria.
