@@ -1,9 +1,11 @@
 import Image from "next/image";
+import { RiMailLine, RiLinkedinFill, RiGithubFill } from "react-icons/ri";
+
 import me from "../../public/profile.jpg";
 
 export default function Home() {
   return (
-    <main>
+    <main className="App">
       <header className="app_header">
         <nav className="header">
           <ul>
@@ -45,6 +47,37 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      <section id="contact" className="area">
+        <h2 className="part_header">
+          <div className="centeredThing">
+            <span className="lineInside">Contact</span>
+          </div>
+        </h2>
+        <p>
+          I am <b>looking</b> for a job. Preferably in Austria.
+        </p>
+
+        <a href="mailto:ggltekn@gmail.com">
+          <div className="emailButton">Send me an e-Mail</div>
+        </a>
+
+        <div className="links">
+          <a href="mailto:ggltekn@gmail.com">
+            <RiMailLine size={28} />
+          </a>
+          <a href="https://www.linkedin.com/in/gokaygultekin">
+            <RiLinkedinFill size={28} />
+          </a>
+          <a href="https://www.github.com/naphteine">
+            <RiGithubFill size={28} />
+          </a>
+        </div>
+      </section>
+
+      <footer className="footer">
+        All rights reserved (c) 2022-2024. Gökay Gültekin.
+      </footer>
     </main>
   );
 }
@@ -54,7 +87,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Project from "../components/Project";
-import { RiMailLine, RiLinkedinFill, RiGithubFill } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -112,38 +144,7 @@ export default function Home() {
             />
           </div>
         </section>
-
-        <section id="contact" className={styles.area}>
-          <h2 className={styles.part_header}>
-            <div className={styles.centeredThing}>
-              <span className={styles.lineInside}>Contact</span>
-            </div>
-          </h2>
-          <p>
-            I am <b>looking</b> for a job. Preferably in Austria.
-          </p>
-
-          <a href="mailto:ggltekn@gmail.com">
-            <div className={styles.emailButton}>Send me an e-Mail</div>
-          </a>
-
-          <div className={styles.links}>
-            <a href="mailto:ggltekn@gmail.com">
-              <RiMailLine size={28} />
-            </a>
-            <a href="https://www.linkedin.com/in/gokaygultekin">
-              <RiLinkedinFill size={28} />
-            </a>
-            <a href="https://www.github.com/naphteine">
-              <RiGithubFill size={28} />
-            </a>
-          </div>
-        </section>
       </main>
-
-      <footer className={styles.footer}>
-        All rights reserved (c) 2022-2024. Gökay Gültekin.
-      </footer>
     </>
   );
 }
