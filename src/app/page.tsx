@@ -53,7 +53,7 @@ export default function Home() {
           <div className="centeredThing">Contact Me</div>
         </h2>
         <p>
-          I am <b>looking</b> for a job. Preferably in Austria.
+          I am <b>looking</b> for a job.
         </p>
 
         <a href="mailto:ggltekn@gmail.com">
