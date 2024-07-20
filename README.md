@@ -1,3 +1,3 @@
-# Portfolio
+# gokay.works
 
-Hello, this is my personal portfolio.
+This repository contains all the code for my [gokay.works](personal website).
