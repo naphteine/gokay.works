@@ -82,6 +82,8 @@ export default function Home() {
         Online shop focused on garments. Most of my work was product management
         and optimization.
       </p>
+
+      <Image src="/logo.png" alt="Personal logo" width={50} height={50} />
     </main>
   );
 }
