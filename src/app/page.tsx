@@ -29,8 +29,8 @@ export default function Home() {
         studied Health Information Systems in Başkent University, where I
         learned more about programming, Go language (thanks to my final project)
         and Android app development. I finished this vocational training as
-        first of my class. Right now I'm studying International Relations in
-        Anadolu University remotely.
+        first of my class. Right now I&apos;m studying International Relations
+        in Anadolu University remotely.
       </p>
 
       <h2 className="text-xl font-bold mt-5">Contact</h2>
