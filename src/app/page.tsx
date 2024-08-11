@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main className="mx-auto max-w-screen-lg">
       <h1 className="text-2xl font-bold">Gökay Gültekin</h1>
       <p>Front-end Web Developer</p>
       <Image
