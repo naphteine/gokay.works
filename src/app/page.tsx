@@ -42,7 +42,7 @@ export default function Home() {
         .
       </p>
 
-      <h2 className="text-xl font-bold mt-5">Projects I&apos;ve Worked On</h2>
+      <h2 className="text-xl font-bold mt-5">What I&apos;ve built</h2>
       <h3 className="text-lg font-medium">Alkandach</h3>
       <a
         target="_blank"
@@ -95,7 +95,7 @@ export default function Home() {
         and optimization.
       </p>
 
-      <h2 className="text-xl font-bold mt-5">Digital Hobby Garden</h2>
+      <h2 className="text-xl font-bold mt-5">Experiments and explorations</h2>
       <p>
         Here you can find some toys I made for personal or educational use,
         independent from any real life work.
@@ -185,16 +185,15 @@ export default function Home() {
         good.
       </p>
 
-      <h2 className="text-xl font-bold mt-5">See Also</h2>
+      <h2 className="text-xl font-bold mt-5">See also</h2>
       <a href="https://radon.gokay.works">Radon Therapy</a>
-      <p>
-        Since 2013 I have been interested in game development. In 2020 I decided
-        to use Radon Therapy as my game developer identity. I would love if you
-        could pay a visit, and play some of the games I made.
-      </p>
+      <p>Video games I&apos;ve made.</p>
 
       <a href="https://blog.gokay.works">Personal blog</a>
       <p>My blog where I share my experiences as a developer.</p>
+
+      <a href="https://gokay.works/resume">Resume</a>
+      <p>Education and work details in standard professional manner.</p>
 
       <Image
         src="/logo.png"
