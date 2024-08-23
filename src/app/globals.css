@@ -63,11 +63,12 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 body {
-  background-color: rgb(250, 252, 255);
+  background-color: rgb(255, 250, 250);
 }

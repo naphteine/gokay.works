@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="px-10 mx-auto mt-10 max-w-screen-lg">
-      <h1 className="text-2xl font-bold">Gökay Gültekin</h1>
+      <h1 className="text-4xl font-black">Gökay Gültekin</h1>
       <p>Front-end Web Developer</p>
       <Image
         src="/profile.jpg"
@@ -14,12 +14,12 @@ export default function Home() {
 
       <h2 className="text-xl font-bold mt-5">Who are you, really?</h2>
       <p>
-        Hello, I&apos;m Gökay. I develop modern websites using Next.js (and
-        sometimes with Svelte). I like programming, using languages such as
-        JavaScript and Go.
+        Hello, I&apos;m Gökay. I develop modern websites using Next.js (and sometimes with Svelte).
+        Programming is my art, and despite the fact that I will use anything to solve the problem, 
+        I have most history with JavaScript, Go and Common Lisp.
       </p>
 
-      <p>
+      <p className="mt-3">
         I had interest on programming since age 13. I was busy making game mods
         for my favorite video games. My highschool was focused on
         web-development, where I learned basic C programming and web
@@ -42,6 +42,8 @@ export default function Home() {
         .
       </p>
 
+      <p>You can also find me on <a className="text-slate-600" href="https://github.com/naphteine">Github</a>.</p>
+
       <h2 className="text-xl font-bold mt-5">What I&apos;ve built</h2>
       <h3 className="text-lg font-medium">Alkandach</h3>
       <a
@@ -57,7 +59,7 @@ export default function Home() {
         Alkandach.
       </p>
 
-      <h3 className="text-lg font-medium">Bati-Reno</h3>
+      <h3 className="text-lg font-medium">Bâti-Réno 76</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -91,8 +93,7 @@ export default function Home() {
         Visit
       </a>
       <p>
-        Online shop focused on garments. Most of my work was product management
-        and optimization.
+        Online shop focused on garments. Most of my work was product management, optimization and design improvements.
       </p>
 
       <h2 className="text-xl font-bold mt-5">Experiments and explorations</h2>
@@ -186,26 +187,34 @@ export default function Home() {
       </p>
 
       <h2 className="text-xl font-bold mt-5">See also</h2>
-      <a href="https://radon.gokay.works">Radon Therapy</a>
-      <p>Video games I&apos;ve made.</p>
+      <a className="font-semibold" href="https://radon.gokay.works">Radon Therapy</a>
+      <p className="mb-3">Video games I&apos;ve made.</p>
 
-      <a href="https://blog.gokay.works">Personal blog</a>
-      <p>My blog where I share my experiences as a developer.</p>
+      <a className="font-semibold" href="https://blog.gokay.works">Personal blog</a>
+      <p className="mb-3">I share my experiences as a developer and how I build software.</p>
 
-      <a href="https://gokay.works/resume">Resume</a>
-      <p>Education and work details in standard professional manner.</p>
+      <a className="font-semibold" href="/resume">Résumé</a>
+      <p className="mb-3">Education and work details in standard professional manner.</p>
 
-      <Image
-        src="/logo.png"
-        alt="Personal logo"
-        className="mx-auto mt-10"
-        width={50}
-        height={50}
-      />
+      <a className="font-semibold" href="https://instagram.com/gyo.ku">Photography</a>
+      <p className="mb-3">My amateur photography portfolio.</p>
 
-      <p className="text-center mb-10">
-        All rights reserved. Gökay Gültekin. &copy; 2020-2024.
-      </p>
+      <a className="font-semibold" href="/stack">Stack</a>
+      <p>Programs and hardware I prefer to use.</p>
+
+      <footer>
+        <Image
+          src="/logo.png"
+          alt="Personal logo"
+          className="mx-auto mt-10"
+          width={50}
+          height={50}
+        />
+
+        <p className="text-center mb-10">
+          All rights reserved. Gökay Gültekin. &copy; 2020-2024.
+        </p>
+      </footer>
     </main>
   );
 }
