@@ -193,8 +193,8 @@ export default function Home() {
       <a className="font-semibold" href="https://blog.gokay.works">Personal blog</a>
       <p className="mb-3">I share my experiences as a developer and how I build software.</p>
 
-      <a className="font-semibold" href="/resume">Résumé</a>
-      <p className="mb-3">Education and work details in standard professional manner.</p>
+      <a className="font-semibold" href="/cv">Résumé</a>
+      <p className="mb-3">Education and work details in standard professional manner, aka curriculum vitae.</p>
 
       <a className="font-semibold" href="https://instagram.com/gyo.ku">Photography</a>
       <p className="mb-3">My amateur photography portfolio.</p>
