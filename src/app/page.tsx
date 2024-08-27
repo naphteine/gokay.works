@@ -197,12 +197,12 @@ export default function Home() {
       <p className="mb-3">Education and work details in standard professional manner, aka curriculum vitae.</p>
 
       <a className="font-semibold" href="https://instagram.com/gyo.ku">Photography</a>
-      <p className="mb-3">My amateur photography portfolio.</p>
+      <p className="mb-3">My amateur attempts at photography.</p>
 
       <a className="font-semibold" href="/stack">Stack</a>
       <p>Programs and hardware I prefer to use.</p>
 
-      <h2 className="text-xl font-bold mt-5">PS. I'm remaking all my sites, so you might encounter empty, not designed pages anywhere. Be advised.</h2>
+      <h2 className="text-xl font-bold mt-5">PS. Be advised, everything is being rebuilt from scratch.</h2>
 
       <footer>
         <Image
