@@ -214,7 +214,7 @@ export default function Home() {
         />
 
         <p className="text-center mb-10">
-          All rights reserved. Gökay Gültekin. &copy; 2020-2024.
+          All rights reserved. Gökay Gültekin. &copy; 2019-2024.
         </p>
       </footer>
     </main>
