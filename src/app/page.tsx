@@ -16,7 +16,7 @@ export default function Home() {
       <p>
         Hello, I&apos;m Gökay. I develop modern websites using Next.js (and sometimes with Svelte).
         Programming is my art, and despite the fact that I will use anything to solve the problem, 
-        I have most history with JavaScript, Go and Common Lisp.
+        I have most experience with JavaScript, Go and lately Common Lisp.
       </p>
 
       <p className="mt-3">
