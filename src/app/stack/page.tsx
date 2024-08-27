@@ -31,6 +31,9 @@ export default function Stack() {
             <h2>News</h2>
             <a href="https://news.ycombinator.com/news">ycombinator</a>
 
+            <h2>Other</h2>
+            <a href="https://www.figma.com/">Figma</a>
+
             <h2>Future</h2>
             <a href="https://tauri.app/">Tauri</a>
             <a href="https://coolify.io">Coolify</a>                                                                                        

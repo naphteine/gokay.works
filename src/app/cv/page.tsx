@@ -12,7 +12,7 @@ export default function Resume() {
             <h2>Projects</h2>
 
             <h2>Skills</h2>
-            <p>JavaScript, NextJS, React</p>
+            <p>JavaScript, NextJS, React, Photoshop, Figma</p>
         </main>
     )
 }
