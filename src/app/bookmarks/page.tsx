@@ -16,6 +16,7 @@ export default function Bookmarks() {
                 <li><a href="https://tilde.institute/">tilde institute | tilde club but openbsd</a></li>
                 <li><a href="https://neocities.org/">neocities | the reincarnation of geocities</a></li>
                 <li><a href="https://kyledrake.com/">kyle drake | creator of neocities</a></li>
+                <li><a href="https://gohugo.io/">Hugo | static site generator. my favorite</a></li>
             </ul>
         </main>
     )
