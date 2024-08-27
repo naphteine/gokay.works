@@ -202,6 +202,8 @@ export default function Home() {
       <a className="font-semibold" href="/stack">Stack</a>
       <p>Programs and hardware I prefer to use.</p>
 
+      <h2 className="text-xl font-bold mt-5">PS. I'm remaking all my sites, so you might encounter empty, not designed pages anywhere. Be advised.</h2>
+
       <footer>
         <Image
           src="/logo.png"
