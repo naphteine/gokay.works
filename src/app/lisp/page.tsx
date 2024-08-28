@@ -15,6 +15,7 @@ export default function Lisp() {
                 <li><a href="http://clhs.lisp.se/Front/index.htm">Common Lisp Hyperspec</a></li>
                 <li><a href="https://gigamonkeys.com/book/">Practical Common Lisp - Peter Seibel (Book)</a></li>
                 <li><a href="https://paulgraham.com/avg.html">Beating the Averages - Paul Graham (Article)</a></li>
+                <li><a href="https://web.mit.edu/6.001/6.037/sicp.pdf">Structure and Interpretations of Computer Programs - Gerald Jay Sussman, Hal Abelson, Julie Sussman (Book)</a></li>
             </ul>
 
             <h2 className="text-2xl font-bold mt-5">Interesting people</h2>
@@ -27,6 +28,7 @@ export default function Lisp() {
             <h2 className="text-2xl font-bold mt-5">Worth mentioning</h2>
             <ul>
                 <li><a href="https://github.com/ocicl/ocicl">ocicl - OCI-based ASDF system distribution and management tool</a></li>
+                <li><a href="https://stumpwm.github.io/">Stump Window Manager - Tiling, keyboard-driven WM written entirely in Common Lisp</a></li>
             </ul>
         </main>
     )
