@@ -21,7 +21,7 @@ export default function Bookmarks() {
                 <li><a href="https://vez.mrsk.me/freebsd-defaults">FreeBSD - a lesson in poor defaults | this article single-handedly make me switch to OpenBSD (and become Puffyist in long turn).</a></li>
                 <li><a href="https://vez.mrsk.me/">@blakkheim | writer of article above, another person I value opinions of (also Lain fan!)</a></li>
                 <li><a href="https://undeadly.org/">Undeadly | OpenBSD journal I used to follow everyday</a></li>
-                <li><a href="https://x.com/thegrugq">@thegrugq | 'Give a man an 0day and he'll have access for a day, teach a man to phish and he'll have access for life.'</a></li>
+                <li><a href="https://x.com/thegrugq">@thegrugq | &apos;Give a man an 0day and he&apos;ll have access for a day, teach a man to phish and he&apos;ll have access for life.&apos;</a></li>
             </ul>
         </main>
     )
