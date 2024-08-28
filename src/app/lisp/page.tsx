@@ -21,6 +21,7 @@ export default function Lisp() {
             <h2 className="text-2xl font-bold mt-5">Interesting people</h2>
             <ul>
                 <li><a href="https://8arrow.org/"><ruby>深町<rt>Fukamachi</rt></ruby> <ruby>英太郎<rt>Eitarō</rt></ruby></a></li>
+                <li><a href="https://paulgraham.com/">Paul Graham</a></li>
                 <li><a href="https://shinmera.com/">Yukari Hafner</a></li>
                 <li><a href="https://xach.com/">Zachary P. Beane</a></li>
             </ul>
