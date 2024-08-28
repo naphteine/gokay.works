@@ -18,7 +18,10 @@ export default function Bookmarks() {
                 <li><a href="https://kyledrake.com/">kyle drake | creator of neocities</a></li>
                 <li><a href="https://gohugo.io/">Hugo | static site generator. my favorite</a></li>
                 <li><a href="https://harmful.cat-v.org/">cat -v harmful | not that i agree with everything but still good takes</a></li>
-                <li><a href="https://logseq.com/">Logseq | Open source privacy-first personal knowledge base</a></li>
+                <li><a href="https://vez.mrsk.me/freebsd-defaults">FreeBSD - a lesson in poor defaults | this article single-handedly make me switch to OpenBSD (and become Puffyist in long turn).</a></li>
+                <li><a href="https://vez.mrsk.me/">@blakkheim | writer of article above, another person I value opinions of (also Lain fan!)</a></li>
+                <li><a href="https://undeadly.org/">Undeadly | OpenBSD journal I used to follow everyday</a></li>
+                <li><a href="https://x.com/thegrugq">@thegrugq | 'Give a man an 0day and he'll have access for a day, teach a man to phish and he'll have access for life.'</a></li>
             </ul>
         </main>
     )
