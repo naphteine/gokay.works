@@ -54,7 +54,11 @@ export default function Stack() {
             <ul>
                 <li><a href="https://tauri.app/">Tauri</a></li>
                 <li><a href="https://coolify.io">Coolify</a></li>
-            </ul>                                                                                 
+            </ul>             
+
+            <footer>
+                <p className="mt-5">Also check my <a className="text-slate-400" href="/bookmarks">bookmarks</a> and <a className="text-slate-400" href="/lisp">Common Lisp</a> pages.</p>    
+            </footer>                                                                    
         </main>
     )
 }
