@@ -1,7 +1,7 @@
 export default function Lisp() {
     return (
         <main>
-            <h1 className="text-4xl font-bold">Common Lisp</h1>
+            <h1 className="text-4xl font-black">Common Lisp</h1>
             <h2 className="text-2xl font-bold mt-5">Programs I use</h2>
             <ul>
                 <li><a href="https://www.sbcl.org/">SBCL</a></li>

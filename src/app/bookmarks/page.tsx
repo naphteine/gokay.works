@@ -17,6 +17,8 @@ export default function Bookmarks() {
                 <li><a href="https://neocities.org/">neocities | the reincarnation of geocities</a></li>
                 <li><a href="https://kyledrake.com/">kyle drake | creator of neocities</a></li>
                 <li><a href="https://gohugo.io/">Hugo | static site generator. my favorite</a></li>
+                <li><a href="https://harmful.cat-v.org/">cat -v harmful | not that i agree with everything but still good takes</a></li>
+
             </ul>
         </main>
     )
