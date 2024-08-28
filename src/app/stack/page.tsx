@@ -1,7 +1,7 @@
 export default function Stack() {
     return (
         <main className="max-w-screen-lg mx-auto my-10 px-10">
-            <h1 className="text-4xl font-black">My -Webdev- Stack</h1>
+            <h1 className="text-4xl font-black">My Stack</h1>
             <h2 className="mt-5 text-2xl font-semibold">Webdev service providers</h2>
             <ul>
                 <li><a href="https://supabase.com/">Supabase</a></li>
@@ -17,15 +17,15 @@ export default function Stack() {
             <h2 className="mt-5 text-2xl font-semibold">Software</h2>
             <ul>
                 <li><a href="https://vscodium.com/">VS Codium</a></li>
-                <li><a href="https://man.openbsd.org/ksh.1">Public domain Korn shell - ksh</a></li>
-                <li><a href="https://logseq.com/">Logseq | Open source privacy-first personal knowledge base</a></li>
+                <li><a href="https://man.openbsd.org/ksh.1">Public domain Korn shell</a></li>
+                <li><a href="https://logseq.com/">Logseq</a></li>
             </ul>
 
-            <h2 className="mt-5 text-2xl font-semibold">DE/WM</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Desktop Environments / Window Managers</h2>
             <ul>
-                <li><a href="https://www.gnome.org/">GNOME | My favorite DE I use preferably in Linux systems</a></li>
-                <li><a href="https://man.openbsd.org/cwm">CWM | My favorite WM for OpenBSD</a></li>
-                <li><a href="https://www.fvwm.org/">FVWM, another WM I fallen in love with</a></li>
+                <li><a href="https://www.gnome.org/">GNOME</a></li>
+                <li><a href="https://man.openbsd.org/cwm">cwm</a></li>
+                <li><a href="https://www.fvwm.org/">FVWM</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Operating systems</h2>
@@ -64,7 +64,7 @@ export default function Stack() {
             <ul>
                 <li><a href="https://tauri.app/">Tauri</a></li>
                 <li><a href="https://coolify.io">Coolify</a></li>
-                <li><a href="https://bun.sh/">Bun | I really love this thing</a></li>
+                <li><a href="https://bun.sh/">Bun</a></li>
             </ul>
 
             <footer>
