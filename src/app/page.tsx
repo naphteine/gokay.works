@@ -36,20 +36,19 @@ export default function Home() {
       <h2 className="text-xl font-bold mt-5">Contact</h2>
       <p>
         You can contact me via{" "}
-        <a className="text-slate-600" href="mailto:ggltekn@gmail.com">
+        <a href="mailto:ggltekn@gmail.com">
           my e-mail
         </a>
         .
       </p>
 
-      <p>You can also find me on <a className="text-slate-600" href="https://github.com/naphteine">Github</a>.</p>
+      <p>You can also find my code on <a href="https://github.com/naphteine">GitHub</a>.</p>
 
       <h2 className="text-xl font-bold mt-5">What I&apos;ve built</h2>
       <h3 className="text-lg font-medium">Alkandach</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://alkandach.com"
       >
         Visit
@@ -63,7 +62,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://batireno.com"
       >
         Visit
@@ -76,7 +74,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://mekandincer.com"
       >
         Visit
@@ -87,7 +84,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://aetherelysium.com"
       >
         Visit
@@ -106,7 +102,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://wired.gokay.works"
       >
         Visit
@@ -123,7 +118,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://soleil.gokay.works"
       >
         Visit
@@ -135,7 +129,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://atay.gokay.works"
       >
         Visit
@@ -147,7 +140,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://nitoji.gokay.works"
       >
         Visit
@@ -167,7 +159,6 @@ export default function Home() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sky-600"
         href="https://kusuri.gokay.works"
       >
         Visit

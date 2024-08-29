@@ -4,19 +4,25 @@
 
 :root {
   --foreground-rgb: 16, 12, 8;
-  --background-rgb: 255 250 250;
+  --background-rgb: 255, 250, 250;
+  --link-rgb: 54, 46, 218;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255 250 250;
+    --foreground-rgb: 255, 250, 250;
     --background-rgb: 16, 12, 8;
+    --link-rgb: 218, 46, 54;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
+}
+
+a {
+  color: rgb(var(--link-rgb))
 }
 
 @layer utilities {

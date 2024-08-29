@@ -75,7 +75,7 @@ export default function Stack() {
             </ul>
 
             <footer>
-                <p className="mt-5">Also check my <a className="text-slate-500" href="/bookmarks">bookmarks</a>, <a className="text-slate-500" href="/friends">friends</a> and <a className="text-slate-500" href="/lisp">Common Lisp</a> pages.</p>    
+                <p className="mt-5">Also check my <a href="/bookmarks">bookmarks</a>, <a href="/friends">friends</a> and <a href="/lisp">Common Lisp</a> pages.</p>    
             </footer>                                                                    
         </main>
     )
