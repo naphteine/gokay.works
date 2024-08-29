@@ -53,11 +53,18 @@ export default function Stack() {
                 <li><a href="https://news.ycombinator.com/news">ycombinator</a></li>
             </ul>
 
-            <h2 className="mt-5 text-2xl font-semibold">Other</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Design</h2>
             <ul>
                 <li><a href="https://www.figma.com/">Figma</a></li>
-                <li><a href="https://newsboat.org/">Newsboat | RSS feed reader for CLI</a></li>
-                <li><a href="https://weechat.org/">Weechat | IRC client</a></li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Lightroom</li>
+            </ul>
+
+            <h2 className="mt-5 text-2xl font-semibold">CLI</h2>
+            <ul>
+                <li><a href="https://newsboat.org/">Newsboat</a></li>
+                <li><a href="https://weechat.org/">Weechat</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Future</h2>
