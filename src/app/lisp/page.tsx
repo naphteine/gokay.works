@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Lisp() {
     return (
         <main className="max-w-screen-lg mx-auto">
@@ -31,6 +33,8 @@ export default function Lisp() {
                 <li><a href="https://github.com/ocicl/ocicl">ocicl - OCI-based ASDF system distribution and management tool</a></li>
                 <li><a href="https://stumpwm.github.io/">Stump Window Manager - Tiling, keyboard-driven WM written entirely in Common Lisp</a></li>
             </ul>
+
+            <Image src={"/lisp.png"} width={430/3} height={345} alt="Lisp logo" />
         </main>
     )
 }
