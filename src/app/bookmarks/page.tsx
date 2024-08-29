@@ -22,6 +22,7 @@ export default function Bookmarks() {
                 <li><a href="https://vez.mrsk.me/">@blakkheim</a></li>
                 <li><a href="https://undeadly.org/">Undeadly</a></li>
                 <li><a href="https://x.com/thegrugq">@thegrugq</a></li>
+                <li><a href="https://ascii.town/">ascii.town</a></li>
             </ul>
         </main>
     )
