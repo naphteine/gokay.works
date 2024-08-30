@@ -12,6 +12,7 @@ export default function Stack() {
             <h2 className="mt-5 text-2xl font-semibold">Self-hosting</h2>
             <ul>
                 <li><a href="https://pocketbase.io/">Pocketbase</a></li>
+                <li><a href="https://gogs.io/">Gogs</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Software</h2>
