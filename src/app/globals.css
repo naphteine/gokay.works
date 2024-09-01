@@ -21,6 +21,11 @@ body {
   background-color: rgb(var(--background-rgb));
 }
 
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
 a {
   color: rgb(var(--link-rgb))
 }

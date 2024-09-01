@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Lisp() {
     return (
-        <main className="max-w-screen-lg mx-auto">
+        <main>
             <h1 className="text-4xl font-black">Common Lisp</h1>
             <h2 className="text-2xl font-bold mt-5">Programs I use</h2>
             <ul>
