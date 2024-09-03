@@ -15,8 +15,7 @@ export default function Home() {
       <h2 className="text-xl font-bold mt-5">Who are you, really?</h2>
       <p>
         Hello, I&apos;m Gökay. I develop modern websites using Next.js (and sometimes with Svelte).
-        Programming is my art, and despite the fact that I will use anything to solve the problem, 
-        I have most experience with JavaScript, Go and lately Common Lisp.
+        Programming is my art and I will use anything to solve the problem, mainly JavaScript, Go and Common Lisp.
       </p>
 
       <p className="mt-3">
