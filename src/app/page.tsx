@@ -20,7 +20,7 @@ export default function Home() {
       </p>
 
       <p className="mt-3">
-        I had interest on programming since age 13. I was busy making <a href="https://github.com/trinityxtreme">game mods</a>{" "} 
+        I had interest on programming since age 13. I was busy making <a href="https://github.com/trinityxtreme">mods</a>{" "} 
         for my favorite video games. My highschool was focused on
         web-development, where I learned basic C programming and web
         development. For university, I first attended and completed education in
