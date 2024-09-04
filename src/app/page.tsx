@@ -19,7 +19,7 @@ export default function Home() {
       </p>
 
       <p className="mt-3">
-        I had interest on programming since age 13. I was busy making <a href="https://github.com/trinityxtreme">mods</a>{" "} 
+        I had interest on programming since age 14. I was busy making <a href="https://github.com/trinityxtreme">mods</a>{" "} 
         for my favorite video games. My highschool was focused on
         web development, where I learned basic C programming, C# and web design. For university, I first attended and completed education in
         Ankara University. I studied Japanese Language and Literature, which was
