@@ -21,13 +21,12 @@ export default function Home() {
       <p className="mt-3">
         I had interest on programming since age 13. I was busy making <a href="https://github.com/trinityxtreme">mods</a>{" "} 
         for my favorite video games. My highschool was focused on
-        web-development, where I learned basic C programming and web
-        development. For university, I first attended and completed education in
+        web development, where I learned basic C programming, C# and web design. For university, I first attended and completed education in
         Ankara University. I studied Japanese Language and Literature, which was
         totally a blast for my hungry mind. While I was attending that, I also
         studied Health Information Systems in Başkent University, where I
         learned more about programming, Go language (thanks to my final project)
-        and Android app development. I finished this vocational training as
+        and Android app development (and had my first chance to use an oscilloscope). I finished this vocational training as
         first of my class. Right now I&apos;m studying International Relations
         in Anadolu University remotely.
       </p>
@@ -93,7 +92,7 @@ export default function Home() {
 
       <h2 className="text-xl font-bold mt-5">Experiments and explorations</h2>
       <p>
-        Here you can find some toys I made for personal or educational use,
+        Here you can find some toys I made for personal or educational reasons,
         independent from any real life work.
       </p>
 
