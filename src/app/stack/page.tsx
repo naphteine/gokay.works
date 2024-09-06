@@ -36,7 +36,7 @@ export default function Stack() {
                 <li><a href="https://voidlinux.org/">Void Linux</a></li>
             </ul>
 
-            <h2 className="mt-5 text-2xl font-semibold">Hosting and domain providers</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Hosting & domain</h2>
             <ul>
                 <li><a href="https://www.hetzner.com/">Hetzner</a></li>
                 <li><a href="https://www.digitalocean.com/">DigitalOcean</a></li>
