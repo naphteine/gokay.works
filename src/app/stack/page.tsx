@@ -68,6 +68,18 @@ export default function Stack() {
                 <li><a href="https://weechat.org/">Weechat</a></li>
             </ul>
 
+            <h2 className="mt-5 text-2xl font-semibold">Programming languages</h2>
+            <ul>
+                <li>JavaScript (Primary)</li>
+                <li>TypeScript (Primary)</li>
+                <li>Go (Secondary)</li>
+                <li>Common Lisp (Tertiary)</li>
+                <li>Ada (Planning to learn)</li>
+                <li>Elixir (Planning to learn)</li>
+                <li>C</li>
+                <li>C++ (Only a subset of)</li>
+            </ul>
+
             <h2 className="mt-5 text-2xl font-semibold">Future</h2>
             <ul>
                 <li><a href="https://tauri.app/">Tauri</a></li>
