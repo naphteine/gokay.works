@@ -79,6 +79,7 @@ export default function Stack() {
                 <li>Rust【Planning to learn】</li>
                 <li>C</li>
                 <li>C++【Only a subset of】</li>
+                <li>Perl【Planning to learn more】</li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Future</h2>
