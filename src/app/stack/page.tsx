@@ -2,7 +2,7 @@ export default function Stack() {
     return (
         <main className="my-10 px-10">
             <h1 className="text-4xl font-black">My Stack</h1>
-            <h2 className="mt-5 text-2xl font-semibold">Webdev service providers</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Web providers</h2>
             <ul>
                 <li><a href="https://supabase.com/">Supabase</a></li>
                 <li><a href="https://vercel.com/">Vercel</a></li>
@@ -22,7 +22,7 @@ export default function Stack() {
                 <li><a href="https://logseq.com/">Logseq</a></li>
             </ul>
 
-            <h2 className="mt-5 text-2xl font-semibold">Desktop Environments / Window Managers</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Desktop</h2>
             <ul>
                 <li><a href="https://www.gnome.org/">GNOME</a></li>
                 <li><a href="https://man.openbsd.org/cwm">cwm</a></li>
@@ -36,7 +36,7 @@ export default function Stack() {
                 <li><a href="https://voidlinux.org/">Void Linux</a></li>
             </ul>
 
-            <h2 className="mt-5 text-2xl font-semibold">Hosting & domain</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Hosting/domain</h2>
             <ul>
                 <li><a href="https://www.hetzner.com/">Hetzner</a></li>
                 <li><a href="https://www.digitalocean.com/">DigitalOcean</a></li>
@@ -70,16 +70,11 @@ export default function Stack() {
 
             <h2 className="mt-5 text-2xl font-semibold">Programming languages</h2>
             <ul>
-                <li>JavaScript【Primary】</li>
-                <li>TypeScript【Primary】</li>
-                <li>Go【Secondary】</li>
-                <li>Common Lisp【Personal】</li>
-                <li>Ada【Planning to learn】</li>
-                <li>Elixir【Planning to learn, cool Ruby syntax】</li>
-                <li>Rust【Planning to learn】</li>
-                <li>C</li>
-                <li>C++【Only a subset of】</li>
-                <li>Perl【Planning to learn more】</li>
+                <li>Primary: JavaScript, TypeScript</li>
+                <li>Secondary: Go, Elixir</li>
+                <li>Favorite: Common Lisp</li>
+                <li>Planning to learn: Ada, Rust, Perl</li>
+                <li>Working knowledge: C, C++</li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Future</h2>
