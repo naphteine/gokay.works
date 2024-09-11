@@ -7,6 +7,8 @@ export default function Stack() {
                 <li><a href="https://vercel.com/">Vercel</a></li>
                 <li><a href="https://www.netlify.com/">Netlify</a></li>
                 <li><a href="https://supabase.com/">Supabase</a></li>
+                <li><a href="https://www.hetzner.com/">Hetzner</a></li>
+                <li><a href="https://www.namecheap.com/">Namecheap</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Self-hosting</h2>
@@ -25,6 +27,7 @@ export default function Stack() {
                 <li><a href="https://vscodium.com/">VSCodium</a></li>
                 <li><a href="https://www.gnu.org/software/emacs/">Emacs</a></li>
                 <li><a href="https://neovim.io/">Neovim</a></li>
+                <li><a href="https://www.blender.org/">Blender</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Desktop</h2>
@@ -39,13 +42,6 @@ export default function Stack() {
                 <li><a href="https://endeavouros.com/">Endeavour OS</a></li>
                 <li><a href="https://openbsd.org/">OpenBSD</a></li>
                 <li><a href="https://voidlinux.org/">Void Linux</a></li>
-            </ul>
-
-            <h2 className="mt-5 text-2xl font-semibold">Hosting/domain</h2>
-            <ul>
-                <li><a href="https://www.hetzner.com/">Hetzner</a></li>
-                <li><a href="https://www.digitalocean.com/">DigitalOcean</a></li>
-                <li><a href="https://www.namecheap.com/">Namecheap</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Security</h2>
@@ -74,7 +70,7 @@ export default function Stack() {
                 <li>Primary: JavaScript, TypeScript</li>
                 <li>Secondary: Go, Elixir</li>
                 <li>Favorite: Common Lisp</li>
-                <li>Planning to learn: Ada, Rust, Perl</li>
+                <li>Planned: Ada, Rust, Perl</li>
                 <li>Working knowledge: C, C++</li>
             </ul>
 
