@@ -2,24 +2,29 @@ export default function Stack() {
     return (
         <main className="my-10 px-10">
             <h1 className="text-4xl font-black">My Stack</h1>
-            <h2 className="mt-5 text-2xl font-semibold">Web providers</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Platforms</h2>
             <ul>
-                <li><a href="https://supabase.com/">Supabase</a></li>
                 <li><a href="https://vercel.com/">Vercel</a></li>
                 <li><a href="https://www.netlify.com/">Netlify</a></li>
+                <li><a href="https://supabase.com/">Supabase</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Self-hosting</h2>
             <ul>
+                <li><a href="https://caddyserver.com/">Caddy</a></li>
                 <li><a href="https://pocketbase.io/">Pocketbase</a></li>
-                <li><a href="https://gogs.io/">Gogs</a></li>
+                <li><a href="https://forgejo.org/">Forgejo</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Software</h2>
             <ul>
-                <li><a href="https://vscodium.com/">VS Codium</a></li>
-                <li><a href="https://man.openbsd.org/ksh.1">Public domain Korn shell</a></li>
+                <li><a href="https://man.openbsd.org/ksh.1"><abbr title="Public domain Korn shell">pdksh</abbr></a></li>
                 <li><a href="https://logseq.com/">Logseq</a></li>
+                <li><a href="https://newsboat.org/">Newsboat</a></li>
+                <li><a href="https://weechat.org/">Weechat</a></li>
+                <li><a href="https://vscodium.com/">VSCodium</a></li>
+                <li><a href="https://www.gnu.org/software/emacs/">Emacs</a></li>
+                <li><a href="https://neovim.io/">Neovim</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Desktop</h2>
@@ -43,10 +48,10 @@ export default function Stack() {
                 <li><a href="https://www.namecheap.com/">Namecheap</a></li>
             </ul>
 
-            <h2 className="mt-5 text-2xl font-semibold">Webdev tech</h2>
+            <h2 className="mt-5 text-2xl font-semibold">Security</h2>
             <ul>
-                <li><a href="https://tailwindcss.com/">Tailwind</a></li>
-                <li><a href="https://ui.shadcn.com/">shadcn/ui</a></li>
+                <li><a href="https://cisofy.com/lynis/">Lynis</a></li>
+                <li><a href="https://gitleaks.io/">Gitleaks</a></li>
             </ul>
             
             <h2 className="mt-5 text-2xl font-semibold">News</h2>
@@ -56,16 +61,12 @@ export default function Stack() {
 
             <h2 className="mt-5 text-2xl font-semibold">Design</h2>
             <ul>
+                <li><a href="https://tailwindcss.com/">Tailwind</a></li>
+                <li><a href="https://ui.shadcn.com/">shadcn/ui</a></li>
                 <li><a href="https://www.figma.com/">Figma</a></li>
                 <li>Adobe Photoshop</li>
                 <li>Adobe Illustrator</li>
                 <li>Adobe Lightroom</li>
-            </ul>
-
-            <h2 className="mt-5 text-2xl font-semibold">CLI</h2>
-            <ul>
-                <li><a href="https://newsboat.org/">Newsboat</a></li>
-                <li><a href="https://weechat.org/">Weechat</a></li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Programming languages</h2>
@@ -82,6 +83,8 @@ export default function Stack() {
                 <li><a href="https://tauri.app/">Tauri</a></li>
                 <li><a href="https://coolify.io">Coolify</a></li>
                 <li><a href="https://bun.sh/">Bun</a></li>
+                <li><a href="https://umami.is/">Umami</a></li>
+                <li><a href="https://cloudinary.com/">Cloudinary</a></li>
             </ul>
 
             <footer>
