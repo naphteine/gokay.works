@@ -27,7 +27,7 @@ export default function Bookmarks() {
 
             <h2 className="text-3xl font-bold">Worth reading</h2>
             <ul>
-                <li><a href="https://iiif.library.cmu.edu/file/Simon_box00075_fld05959_bdl0003_doc0002/Simon_box00075_fld05959_bdl0003_doc0002.pdf">Epigrams on Programming by Alan J. Perris (1922-1990)</a></li>
+                <li><a href="https://iiif.library.cmu.edu/file/Simon_box00075_fld05959_bdl0003_doc0002/Simon_box00075_fld05959_bdl0003_doc0002.pdf">Epigrams on Programming by Alan J. Perlis (1922-1990)</a></li>
             </ul>
         </main>
     )
