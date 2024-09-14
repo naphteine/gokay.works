@@ -2,6 +2,7 @@ export default function Stack() {
     return (
         <main className="my-10 px-10">
             <h1 className="text-4xl font-black">My Stack</h1>
+
             <h2 className="mt-5 text-2xl font-semibold">Platforms</h2>
             <ul>
                 <li><a href="https://vercel.com/">Vercel</a></li>
@@ -16,6 +17,59 @@ export default function Stack() {
                 <li><a href="https://caddyserver.com/">Caddy</a></li>
                 <li><a href="https://pocketbase.io/">Pocketbase</a></li>
                 <li><a href="https://forgejo.org/">Forgejo</a></li>
+            </ul>
+
+            <h2 className="mt-5 text-2xl font-semibold">Hardware</h2>
+            <ul>
+                <li>Acer Aspire E5-571G
+                    <ul>
+                        <li>Samsung 120GB 2.5" SSD</li>
+                        <li>Kingston 240GB A400 SATA3 2.5" SA400S37 SSD</li>
+                        <li>Timetec 16 GB (2x8GB) DDR3L / DDR3 1600MHz PC3L-12800 / PC3-12800 (No ECC)</li>
+                        <li>Intel(R) Core(TM) i5-5200U (4) @ 2.20GHz</li>
+                        <li>Tp-Link TL-WN725N 150 Mbps WiFi Adapter</li>
+                    </ul>
+                </li>
+
+                <li>Custom Desktop
+                    <ul>
+                        <li>4x ??? HDD</li>
+                        <li>8GB ?? DDR4 RAM</li>
+                        <li>Patriot Viper Steel DDR4 32GB 3600MHz Single Module Gaming RAM</li>
+                        <li>AMD Ryzen 3 3200G</li>
+                        <li>Amd Radeon Rx 570</li>
+                        <li>Corsair 110R Mid-Tower ATX</li>
+                        <li>Seasonic FOCUS GX-750 80+ Gold 750W PSU</li>
+                        <li>SteelSeries Arctis Nova 1 – Multi-Platform Gaming Headset</li>
+                        <li>SteelSeries Rival 3 Gaming Mouse, 8,500 Cpi</li>
+                    </ul>
+                </li>
+
+                <li>Other devices
+                    <ul>
+                        <li>Raspberry Pi ??? 4GB</li>
+                        <li>Raspberry Pi 4 Model B 8GB</li>
+                        <li>NETGEAR GS108GE Switch 8 Port Gigabit Ethernet LAN Switch</li>
+                        <li>Duck reading lamp</li>
+                        <li>SoundPEATS Free2 Classic Bluetooth Headphone</li>
+                        <li>Zippo 2004497 Gear Wheels</li>
+                        <li>Nooelec NESDR SMArt XTR Bundle</li>
+                        <li>Nooelec NESDR SMArt HF Bundle</li>
+                        <li>ASUS RT-N18U 600Mbps Wireless Router</li>
+                    </ul>
+                </li>
+
+                <li>Room setup
+                    <ul>
+                        <li>Philips HF3520 Wake-Up Light With Colored Sunrise</li>
+                    </ul>
+                </li>
+
+                <li>Graveyard
+                    <ul>
+                        <li>SteelSeries Arctis 1 (My cat bite its cable)</li>
+                    </ul>
+                </li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Software</h2>
@@ -35,6 +89,9 @@ export default function Stack() {
                 <li><a href="https://www.mozilla.org/en-US/firefox/">Mozilla Firefox (My main since 2007)</a></li>
                 <li><a href="https://www.opera.com/browsers/opera">Opera (For testing Chromium)</a></li>
                 <li><a href="https://lynx.invisible-island.net/">Lynx (For terminal only + testing)</a></li>
+                <li><a href="https://yarnpkg.com/">yarn (year 2024 favorite, subject to change)</a></li>
+                <li><a href="https://pnpm.io/">pnpm (for sveltekit)</a></li>
+                <li><a href="https://github.com/jarun/nnn">nnn (terminal file manager)</a></li>
 
             </ul>
 
