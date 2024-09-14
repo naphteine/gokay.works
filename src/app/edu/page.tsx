@@ -17,8 +17,16 @@ export default function Resume() {
                 <li>Selective | Italian</li>
                 <li>Selective | Psychology</li>
                 <li>Selective | philosophy stuff</li>
+                <li>Selective | painting lesson i took?</li>
+                <li>Selective | sculpting</li>
             </ul>
 
+            <h3>JKET</h3>
+            <ul>
+                <li>shogi</li>
+                <li>shodou</li>
+            </ul>
+            
             <h2>Başkent University</h2>
             <ul>
                 <li>mobile development</li>

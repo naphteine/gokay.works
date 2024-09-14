@@ -134,8 +134,7 @@ export default function Stack() {
             <ul>
                 <li>Primary: JavaScript, TypeScript</li>
                 <li>Favorite: Go, Common Lisp</li>
-                <li>Learning: Ada, Elixir</li>
-                <li>Planned: Rust, Perl</li>
+                <li>Planned: Ada, Elixir, Rust, Perl</li>
                 <li>Limited knowledge: C, C++</li>
             </ul>
 
