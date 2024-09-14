@@ -13,6 +13,8 @@ export default function Resume() {
 
             <h2>Skills</h2>
             <p>JavaScript, NextJS, React, Photoshop, Figma</p>
+
+            <a href="/edu">Check all my education history here</a>
         </main>
     )
 }

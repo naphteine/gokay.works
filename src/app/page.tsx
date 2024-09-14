@@ -104,7 +104,7 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: ON HOLD</h4>
+      <h4>STATUS: UPGRADING</h4>
       <p>
         Experimental social media. I started this project to learn Svelte with
         practice. I used Supabase for database and auth management. I has very
@@ -120,7 +120,7 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: ON HOLD</h4>
+      <h4>STATUS: WORK IN PROGRESS</h4>
       <p>A simple website where I keep track of TV series I watched.</p>
 
       <h3 className="text-lg font-medium">Atay</h3>
@@ -142,7 +142,7 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: ON HOLD</h4>
+      <h4>STATUS: REFACTORING</h4>
       <p>
         Turkish-Japanese Dictionary. I was planning to make a digital, easily
         usable dictionary for Japanese since my first year in university. There
@@ -175,6 +175,19 @@ export default function Home() {
         good.
       </p>
 
+      <h3 className="text-lg font-medium">Kangal</h3>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://kangal.gokay.works"
+      >
+        Visit
+      </a>
+      <h4>STATUS: ON HOLD</h4>
+      <p>
+        Web based double-entry accountant for personal use with inflation and shrinkflation.
+      </p>
+
       <h2 className="text-xl font-bold mt-5">See also</h2>
       <a className="font-semibold" href="https://radon.gokay.works">Radon Therapy</a>
       <p className="mb-3">Video games I&apos;ve made.</p>
@@ -185,7 +198,7 @@ export default function Home() {
       <a className="font-semibold" href="/cv">Résumé</a>
       <p className="mb-3">Education and work details in standard professional manner, aka curriculum vitae.</p>
 
-      <a className="font-semibold" href="https://instagram.com/gyo.ku">Photography</a>
+      <a className="font-semibold" href="https://studio.gokay.works">Photography</a>
       <p className="mb-3">My amateur attempts at photography.</p>
 
       <a className="font-semibold" href="/stack">Stack</a>
