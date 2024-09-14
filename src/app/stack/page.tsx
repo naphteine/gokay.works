@@ -65,9 +65,19 @@ export default function Stack() {
                     </ul>
                 </li>
 
-                <li>-- Graveyard
+                <li>-- Violin
+                    <ul>
+                        <li>Stentor 1550A Violin</li>
+                        <li>Gewa Practice Mute</li>
+                        <li>BonMusica Violin Shoulder Rest</li>
+                    </ul>
+                </li>
+
+                <li>-- Old
                     <ul>
                         <li>SteelSeries Arctis 1 (My cat bite its cable)</li>
+                        <li>Super Nintendo Entertainment System (SNES) Europe version</li>
+                        <li>FUJI XT-10 Mirrorless camera</li>
                     </ul>
                 </li>
             </ul>
