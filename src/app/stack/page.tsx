@@ -21,17 +21,17 @@ export default function Stack() {
 
             <h2 className="mt-5 text-2xl font-semibold">Hardware</h2>
             <ul>
-                <li>Acer Aspire E5-571G
+                <li>-- Acer Aspire E5-571G
                     <ul>
-                        <li>Samsung 120GB 2.5" SSD</li>
-                        <li>Kingston 240GB A400 SATA3 2.5" SA400S37 SSD</li>
+                        <li>Samsung 120GB 2.5&quot; SSD</li>
+                        <li>Kingston 240GB A400 SATA3 2.5&quot; SA400S37 SSD</li>
                         <li>Timetec 16 GB (2x8GB) DDR3L / DDR3 1600MHz PC3L-12800 / PC3-12800 (No ECC)</li>
                         <li>Intel(R) Core(TM) i5-5200U (4) @ 2.20GHz</li>
                         <li>Tp-Link TL-WN725N 150 Mbps WiFi Adapter</li>
                     </ul>
                 </li>
 
-                <li>Custom Desktop
+                <li>-- Custom Desktop
                     <ul>
                         <li>4x ??? HDD</li>
                         <li>8GB ?? DDR4 RAM</li>
@@ -45,7 +45,7 @@ export default function Stack() {
                     </ul>
                 </li>
 
-                <li>Other devices
+                <li>-- Other devices
                     <ul>
                         <li>Raspberry Pi ??? 4GB</li>
                         <li>Raspberry Pi 4 Model B 8GB</li>
@@ -59,13 +59,13 @@ export default function Stack() {
                     </ul>
                 </li>
 
-                <li>Room setup
+                <li>-- Room setup
                     <ul>
                         <li>Philips HF3520 Wake-Up Light With Colored Sunrise</li>
                     </ul>
                 </li>
 
-                <li>Graveyard
+                <li>-- Graveyard
                     <ul>
                         <li>SteelSeries Arctis 1 (My cat bite its cable)</li>
                     </ul>
