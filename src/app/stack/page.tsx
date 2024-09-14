@@ -133,10 +133,10 @@ export default function Stack() {
             <h2 className="mt-5 text-2xl font-semibold">Programming languages</h2>
             <ul>
                 <li>Primary: JavaScript, TypeScript</li>
-                <li>Secondary: Go, Elixir</li>
-                <li>Favorite: Common Lisp</li>
-                <li>Planned: Ada, Rust, Perl</li>
-                <li>Working knowledge: C, C++</li>
+                <li>Favorite: Go, Common Lisp</li>
+                <li>Learning: Ada, Elixir</li>
+                <li>Planned: Rust, Perl</li>
+                <li>Limited knowledge: C, C++</li>
             </ul>
 
             <h2 className="mt-5 text-2xl font-semibold">Future</h2>
