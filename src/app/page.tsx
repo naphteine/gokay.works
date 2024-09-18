@@ -20,18 +20,30 @@ export default function Home() {
       </p>
 
       <p className="mt-3">
-        I had interest on programming since age 14. I was busy making{" "}
+        I have had an interest in programming since age 14. I was busy making{" "}
         <a href="https://github.com/trinityxtreme">mods</a> for my favorite
         video games. My highschool was focused on web development, where I
-        learned basic C programming, C# and web design. For university, I first
-        attended and completed education in Ankara University. I studied
-        Japanese Language and Literature, which was totally a blast for my
-        hungry mind. While I was attending that, I also studied Health
-        Information Systems in Başkent University, where I learned more about
-        programming, Go language (thanks to my final project) and Android app
-        development (and had my first chance to use an oscilloscope). I finished
-        this vocational training as first of my class. Right now I&apos;m
-        studying International Relations in Anadolu University remotely.
+        learned basic C programming, C# and web design.
+      </p>
+
+      <p className="mt-3">
+        For university, I first attended and completed education in Ankara
+        University. I studied Japanese Language and Literature, which was
+        totally a blast for my hungry mind.
+      </p>
+
+      <p className="mt-3">
+        While I was attending that, I also studied Health Information Systems in
+        Başkent University, where I learned more about programming, Go language
+        (thanks to my final project) and Android app development (and had my
+        first chance to use an oscilloscope). I finished this vocational
+        education as the first in my class.
+      </p>
+
+      <p className="mt-3">
+        Right now I&apos;m -only- studying International Relations in Anadolu
+        University remotely while improving myself on UI design, front-end
+        development and Japanese language.
       </p>
 
       <h2 className="text-xl font-bold mt-5">Contact</h2>
