@@ -10,6 +10,7 @@ export default function Home() {
         alt={"Gökay Gültekin"}
         width={250}
         height={500}
+        className="mt-4"
       />
 
       <h2 className="text-xl font-bold mt-8">Who are you, really?</h2>
@@ -100,7 +101,7 @@ export default function Home() {
       <h2 className="text-xl font-bold mt-14">Experiments and explorations</h2>
       <p>
         Here you can find some toys I made for personal or educational reasons,
-        independent from any real life work.
+        independent from any real life work. Most of them are still in flux.
       </p>
 
       <h3 className="text-lg font-medium mt-6">Wired</h3>
@@ -111,7 +112,6 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: UPGRADING</h4>
       <p>
         Experimental social media. I started this project to learn Svelte with
         practice. I used Supabase for database and auth management. I has very
@@ -127,8 +127,7 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: WORK IN PROGRESS</h4>
-      <p>A simple website where I keep track of TV series I watched.</p>
+      <p>Keeping track of TV series I watched.</p>
 
       <h3 className="text-lg font-medium mt-6">Atay</h3>
       <a
@@ -138,8 +137,7 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: ON HOLD</h4>
-      <p>Similar to Soleil, but focused on books I read.</p>
+      <p>Managing my book library.</p>
 
       <h3 className="text-lg font-medium mt-6">Nitoji</h3>
       <a
@@ -149,7 +147,6 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: REFACTORING</h4>
       <p>
         Turkish-Japanese Dictionary. I was planning to make a digital, easily
         usable dictionary for Japanese since my first year in university. There
@@ -168,7 +165,6 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: ON HOLD</h4>
       <p>
         Online Medicine Tracking System. This is actually remake of my final
         project in Başkent University. Me and a classmate of mine tried to make
@@ -190,10 +186,9 @@ export default function Home() {
       >
         Visit
       </a>
-      <h4>STATUS: ON HOLD</h4>
       <p>
         Web based double-entry accountant for personal use with inflation and
-        shrinkflation.
+        shrinkflation tracking.
       </p>
 
       <h2 className="text-xl font-bold mt-14">See also</h2>
@@ -227,22 +222,16 @@ export default function Home() {
       </a>
       <p>Programs and hardware I prefer to use.</p>
 
-      <h2 className="text-xl font-bold mt-14">
-        PS. Be advised, everything is being rebuilt from scratch.
-      </h2>
-
       <footer>
         <Image
           src="/logo.png"
           alt="Personal logo"
-          className="mx-auto mt-10"
+          className="mx-auto mt-10 pointer-events-none"
           width={50}
           height={50}
         />
 
-        <p className="text-center">
-          All rights reserved. Gökay Gültekin. &copy; 2019-2024.
-        </p>
+        <p className="text-center">Gökay Gültekin &copy; 2019-2024</p>
       </footer>
     </main>
   );
