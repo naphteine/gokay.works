@@ -63,7 +63,7 @@ export default function Home() {
         Visit
       </a>
       <p>
-        Landing page with detailed gallery for Austrian roof cleaning company
+        Landing page with detailed gallery for Austrian roofing company
         Alkandach.
       </p>
 
@@ -83,7 +83,7 @@ export default function Home() {
       >
         Visit
       </a>
-      <p>Personal portfolio for violin teacher Mekan Dinçer.</p>
+      <p>Personal website for Turkish violin teacher Mekan Dinçer.</p>
 
       <h3 className="text-lg font-medium mt-6">Aether Elysium</h3>
       <a
