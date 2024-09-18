@@ -12,27 +12,27 @@ export default function Home() {
         height={500}
       />
 
-      <h2 className="text-xl font-bold mt-5">Who are you, really?</h2>
+      <h2 className="text-xl font-bold mt-8">Who are you, really?</h2>
       <p>
         Hello, I&apos;m Gökay. I develop modern websites using Next.js (and
         sometimes with Svelte). Programming is my art and I will use anything to
         solve the problem, mainly JavaScript, Go and Common Lisp.
       </p>
 
-      <p className="mt-3">
+      <p className="mt-4">
         I have had an interest in programming since age 14. I was busy making{" "}
         <a href="https://github.com/trinityxtreme">mods</a> for my favorite
         video games. My highschool was focused on web development, where I
         learned basic C programming, C# and web design.
       </p>
 
-      <p className="mt-3">
+      <p className="mt-4">
         For university, I first attended and completed education in Ankara
         University. I studied Japanese Language and Literature, which was
         totally a blast for my hungry mind.
       </p>
 
-      <p className="mt-3">
+      <p className="mt-4">
         While I was attending that, I also studied Health Information Systems in
         Başkent University, where I learned more about programming, Go language
         (thanks to my final project) and Android app development (and had my
@@ -40,13 +40,13 @@ export default function Home() {
         education as the first in my class.
       </p>
 
-      <p className="mt-3">
+      <p className="mt-4">
         Right now I&apos;m -only- studying International Relations in Anadolu
-        University remotely while improving myself on UI design, front-end
+        University remotely while constantly tinkering with UI design, front-end
         development and Japanese language.
       </p>
 
-      <h2 className="text-xl font-bold mt-5">Contact</h2>
+      <h2 className="text-xl font-bold mt-14">Contact</h2>
       <p>
         You can contact me via <a href="mailto:ggltekn@gmail.com">my e-mail</a>.
       </p>
@@ -56,7 +56,7 @@ export default function Home() {
         <a href="https://github.com/naphteine">GitHub</a>.
       </p>
 
-      <h2 className="text-xl font-bold mt-5">What I&apos;ve built</h2>
+      <h2 className="text-xl font-bold mt-14">What I&apos;ve built</h2>
       <h3 className="text-lg font-medium">Alkandach</h3>
       <a target="_blank" rel="noopener noreferrer" href="https://alkandach.com">
         Visit
@@ -66,7 +66,7 @@ export default function Home() {
         Alkandach.
       </p>
 
-      <h3 className="text-lg font-medium">Bâti-Réno 76</h3>
+      <h3 className="text-lg font-medium mt-6">Bâti-Réno 76</h3>
       <a target="_blank" rel="noopener noreferrer" href="https://batireno.com">
         Visit
       </a>
@@ -74,7 +74,7 @@ export default function Home() {
         Business landing page for French interior design company Bâti-Réno 76.
       </p>
 
-      <h3 className="text-lg font-medium">Mekan Dinçer</h3>
+      <h3 className="text-lg font-medium mt-6">Mekan Dinçer</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function Home() {
       </a>
       <p>Personal portfolio for violin teacher Mekan Dinçer.</p>
 
-      <h3 className="text-lg font-medium">Aether Elysium</h3>
+      <h3 className="text-lg font-medium mt-6">Aether Elysium</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -97,13 +97,13 @@ export default function Home() {
         optimization and design improvements.
       </p>
 
-      <h2 className="text-xl font-bold mt-5">Experiments and explorations</h2>
+      <h2 className="text-xl font-bold mt-14">Experiments and explorations</h2>
       <p>
         Here you can find some toys I made for personal or educational reasons,
         independent from any real life work.
       </p>
 
-      <h3 className="text-lg font-medium">Wired</h3>
+      <h3 className="text-lg font-medium mt-6">Wired</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export default function Home() {
         so be advised.
       </p>
 
-      <h3 className="text-lg font-medium">Soleil</h3>
+      <h3 className="text-lg font-medium mt-6">Soleil</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -130,7 +130,7 @@ export default function Home() {
       <h4>STATUS: WORK IN PROGRESS</h4>
       <p>A simple website where I keep track of TV series I watched.</p>
 
-      <h3 className="text-lg font-medium">Atay</h3>
+      <h3 className="text-lg font-medium mt-6">Atay</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -141,7 +141,7 @@ export default function Home() {
       <h4>STATUS: ON HOLD</h4>
       <p>Similar to Soleil, but focused on books I read.</p>
 
-      <h3 className="text-lg font-medium">Nitoji</h3>
+      <h3 className="text-lg font-medium mt-6">Nitoji</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -160,7 +160,7 @@ export default function Home() {
         better.
       </p>
 
-      <h3 className="text-lg font-medium">Kusuri</h3>
+      <h3 className="text-lg font-medium mt-6">Kusuri</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -182,7 +182,7 @@ export default function Home() {
         good.
       </p>
 
-      <h3 className="text-lg font-medium">Kangal</h3>
+      <h3 className="text-lg font-medium mt-6">Kangal</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -196,7 +196,7 @@ export default function Home() {
         shrinkflation.
       </p>
 
-      <h2 className="text-xl font-bold mt-5">See also</h2>
+      <h2 className="text-xl font-bold mt-14">See also</h2>
       <a className="font-semibold" href="https://radon.gokay.works">
         Radon Therapy
       </a>
@@ -227,7 +227,7 @@ export default function Home() {
       </a>
       <p>Programs and hardware I prefer to use.</p>
 
-      <h2 className="text-xl font-bold mt-5">
+      <h2 className="text-xl font-bold mt-14">
         PS. Be advised, everything is being rebuilt from scratch.
       </h2>
 
