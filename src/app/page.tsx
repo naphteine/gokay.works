@@ -222,11 +222,11 @@ export default function Home() {
       </a>
       <p>Programs and hardware I prefer to use.</p>
 
-      <footer>
+      <footer className="mt-14">
         <Image
           src="/logo.png"
           alt="Personal logo"
-          className="mx-auto mt-10 pointer-events-none"
+          className="mx-auto pointer-events-none"
           width={50}
           height={50}
         />
