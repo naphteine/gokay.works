@@ -1,6 +1,6 @@
 export default function Stack() {
   return (
-    <main className="my-10 px-10">
+    <main>
       <h1 className="text-4xl font-black">My Stack</h1>
 
       <h2 className="mt-5 text-2xl font-semibold">Front-end</h2>

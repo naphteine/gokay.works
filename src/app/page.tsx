@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="px-10 mt-10">
+    <main>
       <h1 className="text-4xl font-black">Gökay Gültekin</h1>
       <p>Front-end Web Developer</p>
       <Image
@@ -14,41 +14,39 @@ export default function Home() {
 
       <h2 className="text-xl font-bold mt-5">Who are you, really?</h2>
       <p>
-        Hello, I&apos;m Gökay. I develop modern websites using Next.js (and sometimes with Svelte).
-        Programming is my art and I will use anything to solve the problem, mainly JavaScript, Go and Common Lisp.
+        Hello, I&apos;m Gökay. I develop modern websites using Next.js (and
+        sometimes with Svelte). Programming is my art and I will use anything to
+        solve the problem, mainly JavaScript, Go and Common Lisp.
       </p>
 
       <p className="mt-3">
-        I had interest on programming since age 14. I was busy making <a href="https://github.com/trinityxtreme">mods</a>{" "} 
-        for my favorite video games. My highschool was focused on
-        web development, where I learned basic C programming, C# and web design. For university, I first attended and completed education in
-        Ankara University. I studied Japanese Language and Literature, which was
-        totally a blast for my hungry mind. While I was attending that, I also
-        studied Health Information Systems in Başkent University, where I
-        learned more about programming, Go language (thanks to my final project)
-        and Android app development (and had my first chance to use an oscilloscope). I finished this vocational training as
-        first of my class. Right now I&apos;m studying International Relations
-        in Anadolu University remotely.
+        I had interest on programming since age 14. I was busy making{" "}
+        <a href="https://github.com/trinityxtreme">mods</a> for my favorite
+        video games. My highschool was focused on web development, where I
+        learned basic C programming, C# and web design. For university, I first
+        attended and completed education in Ankara University. I studied
+        Japanese Language and Literature, which was totally a blast for my
+        hungry mind. While I was attending that, I also studied Health
+        Information Systems in Başkent University, where I learned more about
+        programming, Go language (thanks to my final project) and Android app
+        development (and had my first chance to use an oscilloscope). I finished
+        this vocational training as first of my class. Right now I&apos;m
+        studying International Relations in Anadolu University remotely.
       </p>
 
       <h2 className="text-xl font-bold mt-5">Contact</h2>
       <p>
-        You can contact me via{" "}
-        <a href="mailto:ggltekn@gmail.com">
-          my e-mail
-        </a>
-        .
+        You can contact me via <a href="mailto:ggltekn@gmail.com">my e-mail</a>.
       </p>
 
-      <p>You can also find my code on <a href="https://github.com/naphteine">GitHub</a>.</p>
+      <p>
+        You can also find my code on{" "}
+        <a href="https://github.com/naphteine">GitHub</a>.
+      </p>
 
       <h2 className="text-xl font-bold mt-5">What I&apos;ve built</h2>
       <h3 className="text-lg font-medium">Alkandach</h3>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://alkandach.com"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="https://alkandach.com">
         Visit
       </a>
       <p>
@@ -57,11 +55,7 @@ export default function Home() {
       </p>
 
       <h3 className="text-lg font-medium">Bâti-Réno 76</h3>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://batireno.com"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="https://batireno.com">
         Visit
       </a>
       <p>
@@ -87,7 +81,8 @@ export default function Home() {
         Visit
       </a>
       <p>
-        Online shop focused on garments. Most of my work was product management, optimization and design improvements.
+        Online shop focused on garments. Most of my work was product management,
+        optimization and design improvements.
       </p>
 
       <h2 className="text-xl font-bold mt-5">Experiments and explorations</h2>
@@ -185,26 +180,44 @@ export default function Home() {
       </a>
       <h4>STATUS: ON HOLD</h4>
       <p>
-        Web based double-entry accountant for personal use with inflation and shrinkflation.
+        Web based double-entry accountant for personal use with inflation and
+        shrinkflation.
       </p>
 
       <h2 className="text-xl font-bold mt-5">See also</h2>
-      <a className="font-semibold" href="https://radon.gokay.works">Radon Therapy</a>
+      <a className="font-semibold" href="https://radon.gokay.works">
+        Radon Therapy
+      </a>
       <p className="mb-3">Video games I&apos;ve made.</p>
 
-      <a className="font-semibold" href="https://blog.gokay.works">Personal blog</a>
-      <p className="mb-3">I share my experiences as a developer and how I build software.</p>
+      <a className="font-semibold" href="https://blog.gokay.works">
+        Personal blog
+      </a>
+      <p className="mb-3">
+        I share my experiences as a developer and how I build software.
+      </p>
 
-      <a className="font-semibold" href="/cv">Résumé</a>
-      <p className="mb-3">Education and work details in standard professional manner, aka curriculum vitae.</p>
+      <a className="font-semibold" href="/cv">
+        Résumé
+      </a>
+      <p className="mb-3">
+        Education and work details in standard professional manner, aka
+        curriculum vitae.
+      </p>
 
-      <a className="font-semibold" href="https://studio.gokay.works">Photography</a>
+      <a className="font-semibold" href="https://studio.gokay.works">
+        Photography
+      </a>
       <p className="mb-3">My amateur attempts at photography.</p>
 
-      <a className="font-semibold" href="/stack">Stack</a>
+      <a className="font-semibold" href="/stack">
+        Stack
+      </a>
       <p>Programs and hardware I prefer to use.</p>
 
-      <h2 className="text-xl font-bold mt-5">PS. Be advised, everything is being rebuilt from scratch.</h2>
+      <h2 className="text-xl font-bold mt-5">
+        PS. Be advised, everything is being rebuilt from scratch.
+      </h2>
 
       <footer>
         <Image
@@ -215,7 +228,7 @@ export default function Home() {
           height={50}
         />
 
-        <p className="text-center mb-10">
+        <p className="text-center">
           All rights reserved. Gökay Gültekin. &copy; 2019-2024.
         </p>
       </footer>

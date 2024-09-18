@@ -24,10 +24,14 @@ body {
 main {
   max-width: 1024px;
   margin: auto;
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 a {
-  color: rgb(var(--link-rgb))
+  color: rgb(var(--link-rgb));
 }
 
 @layer utilities {
