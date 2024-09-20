@@ -17,6 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <script
+        defer
+        src="https://umi.gokay.works/script.js"
+        data-website-id="c88e1eea-e6b2-48f1-abc3-ab30e851f9a6"
+      ></script>
     </html>
   );
 }
