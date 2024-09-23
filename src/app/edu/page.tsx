@@ -5,7 +5,8 @@ export default function Resume() {
 
       <h2 className="text-xl font-bold mt-8">Ankara University</h2>
       <ul>
-        <li>Kanji (I-VIII)</li>
+        <li>Japanese Writing (I-IV) & Kanji (V-VIII)</li>
+        <li>Japanese Grammar</li>
         <li>Türk Japon İlişkileri Tarihi</li>
         <li>japanese calligraphy (Shodou)</li>
         <li>bilişsel dilbilim açısından japonca</li>
