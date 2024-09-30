@@ -18,8 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <SpeedInsights />
+      <body className={inter.className}>
+      	{children}	
+        <SpeedInsights />
+      </body>
       <Script
         defer
         src="https://umi.gokay.works/script.js"
