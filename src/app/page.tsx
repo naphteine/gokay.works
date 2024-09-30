@@ -129,15 +129,15 @@ export default function Home() {
       </a>
       <p>Keeping track of TV series I watched.</p>
 
-      <h3 className="text-lg font-medium mt-6">Atay</h3>
+      <h3 className="text-lg font-medium mt-6">Cyperus</h3>
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://atay.gokay.works"
+        href="https://cyperus.gokay.works"
       >
         Visit
       </a>
-      <p>Managing my book library.</p>
+      <p>Personal physical library management app.</p>
 
       <h3 className="text-lg font-medium mt-6">Nitoji</h3>
       <a
