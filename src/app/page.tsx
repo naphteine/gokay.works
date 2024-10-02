@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-4xl font-black">Gökay Gültekin</h1>
       <p>Front-end Web Developer</p>
       <Image
-        src="https://cdn.gokay.works/gg/profile.jpg"
+        src="https://cdn.gokay.works/gg/profile-004.png"
         alt={"Gökay Gültekin"}
         width={250}
         height={500}
