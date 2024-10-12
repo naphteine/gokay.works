@@ -192,7 +192,7 @@ export default function Home() {
       </p>
 
       <h2 className="text-xl font-bold mt-14">See also</h2>
-      <a className="font-semibold" href="https://radon.gokay.works">
+      <a className="font-semibold" href="https://www.radon-tx.com">
         Radon Therapy
       </a>
       <p className="mb-3">Video games I&apos;ve made.</p>
