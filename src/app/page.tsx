@@ -100,8 +100,9 @@ export default function Home() {
 
       <h2 className="text-xl font-bold mt-14">Experiments and explorations</h2>
       <p>
-        Here you can find some toys I made for personal or educational reasons,
-        independent from any real life work. Most of them are still in flux.
+        Here you can find some toy projects I made for personal or educational
+        reasons, independent from any real life work. Most of them are still in
+        flux.
       </p>
 
       <h3 className="text-lg font-medium mt-6">Wired</h3>
@@ -114,7 +115,7 @@ export default function Home() {
       </a>
       <p>
         Experimental social media. I started this project to learn Svelte with
-        practice. I used Supabase for database and auth management. I has very
+        practice. I used Supabase for database and auth management. It has very
         little userbase, entirely formed by my friends. Content is not managed
         so be advised.
       </p>
