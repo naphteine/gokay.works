@@ -8,20 +8,25 @@ export default function Resume() {
         <li>Japanese Writing (I-IV) & Kanji (V-VIII)</li>
         <li>Japanese Grammar</li>
         <li>Türk Japon İlişkileri Tarihi</li>
-        <li>japanese calligraphy (Shodou)</li>
-        <li>bilişsel dilbilim açısından japonca</li>
-        <li>classical japanese literature</li>
-        <li>japanese history</li>
-        <li>
-          final thesis (undergraduate, my topic was genyosha and kokuryūkai)
-        </li>
+        <li>Japenese Calligraphy</li>
+        <li>Bilişsel Dilbilim Açısından Japonca</li>
+        <li>Classical Japanese Literature I-II</li>
+        <li>Japanese History</li>
+        <li>Graduation Thesis (Undergraduate, "Gen'yōsha and Kokuryūkai")</li>
         <li>translation</li>
-        <li>Selective | Chinese</li>
-        <li>Selective | Italian</li>
-        <li>Selective | Psychology</li>
-        <li>Selective | philosophy stuff</li>
-        <li>Selective | painting lesson i took?</li>
-        <li>Selective | sculpting</li>
+        <li>Selective | Chinese Language I (Çince)</li>
+        <li>Selective | Italian (İtalyanca)</li>
+        <li>Selective | General Psychology I (Genel Psikoloji I)</li>
+        <li>
+          Selective | Contemporary Ethical Theories (Çağdaş Etik Kuramlar)
+        </li>
+        <li>Selective | Painting (Resim)</li>
+        <li>Selective | Sculpture (Heykel)</li>
+        <li>
+          Selective | New Media and Social Relations (Yeni Medya ve Toplumsal
+          İlişkiler)
+        </li>
+        <li>Selective | History of Communication (İletişim Tarihi)</li>
       </ul>
 
       <h3>JKET</h3>
@@ -43,6 +48,32 @@ export default function Resume() {
         <li>VOCATIONAL MATHEMATICS (I-II)</li>
         <li>DATABASE (I-II)</li>
         <li>Selective | ANATOLIAN ARCHAEOLOGY</li>
+        Bilgisayar Okuryazarlığı - COmputer Literacy
+        Algoritma ve Programlamaya Giriş - Introduction to Algorithm and PRogramming
+        Tıbbi Terminoloji - Medical Terminology
+        Tobbi Dökümantasyon - Medical Documentation I
+        Mesleki Matematik I - Vocational Mathematics I
+        Elektronik İmalat Teknolojisi - Electronic Manufacturing Technology
+        Anadolu Arkeolojisi - Anatolian Archeology
+        C Programlama - C Programming
+        Nesneye Yönelik Programlama I - Object Oriented Programming I
+        Veri Tabanı I - Database I
+        Mesleki Matematik II - Vocational Mathematics II
+        Sağlık Bilişimi - Health Informatics
+        Hastane Bilgi Yönetim Sistemleri - Hospital Information Management Systems
+        Elektronik Tesisatı Çizimi - Electrical Installation Drawing
+        Staj - Summer Practice
+        Görsel Programlama I - Visual Programming I
+        Veri Tabanı II - DATABASE II
+        MOBİL UYGULAMALARI I - MOBILE APPLICATIONS I
+        SENSÖRLER - SENSORS
+        SAĞLIK BİLGİ SİSTEMLERİ - HEALTH INFORMATION SYSTEMS
+        TEMEL ELEKTRİK VE ELEKTRONİK - BASIC ELECTRICITY AND ELECTRONICS
+        AĞ TEMELLERİ - NETWORK FUNDAMENTALS
+        MESLEKİ PROJE - VOCATIONAL PROJECT
+        MOBİL UYGULAMALARI II - MOBILE APPLICATIONS II
+        MİKRODENETLEYİCİ - MICROCONTROLLER
+        İLK YARDIM - FIRST AID
       </ul>
     </main>
   );
