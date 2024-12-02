@@ -235,7 +235,7 @@ export default function Home() {
       </a>
       <p className="mb-3">Video games I&apos;ve made.</p>
 
-      <footer className="mt-14">
+      <footer className="mt-14 text-sm text-gray-400">
         <Image
           src="/logo.png"
           alt="Personal logo"
@@ -248,7 +248,7 @@ export default function Home() {
           Gökay Gültekin &copy; 2019-2025
           <br />
           <a
-            className="text-center"
+            className="text-center text-muted-foreground underline"
             href="https://github.com/naphteine/gokay.works"
           >
             Source code
