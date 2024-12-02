@@ -4,17 +4,22 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <h1 className="text-4xl font-black">Gökay Gültekin</h1>
-      <p>Front-end Web Developer</p>
-      <Image
-        src="https://cdn.gokay.works/gg/profile-004.png"
-        alt={"Gökay Gültekin"}
-        width={250}
-        height={500}
-        className="mt-4"
-      />
+      <header className="sm:flex items-center justify-center">
+        <div className="mr-5 sm:text-right">
+          <h1 className="text-4xl md:text-5xl font-black">Gökay Gültekin</h1>
+          <h2 className="text-lg md:text-2xl">Front-end Web Developer</h2>
+        </div>
 
-      <h2 className="text-xl font-bold mt-8">Who are you, really?</h2>
+        <Image
+          src="https://cdn.gokay.works/gg/profile-004.png"
+          alt={"Gökay Gültekin"}
+          width={250}
+          height={500}
+          className="mt-4"
+        />
+      </header>
+
+      <h2 className="text-2xl font-bold mt-8">Who are you, really?</h2>
       <p>
         Hello, I&apos;m Gökay. I develop modern websites using Next.js (and
         sometimes with Svelte). Programming is my art and I will use anything to
