@@ -16,7 +16,7 @@ export default function Resume() {
         <li>Japanese History</li>
         <li>Translation</li>
         <li>
-          Graduation Thesis (Undergraduate, &ldquo;Gen'yōsha and
+          Graduation Thesis (Undergraduate, &ldquo;Gen&apos;yōsha and
           Kokuryūkai&rdquo;)
         </li>
 
