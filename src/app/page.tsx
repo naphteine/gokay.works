@@ -244,7 +244,16 @@ export default function Home() {
           height={50}
         />
 
-        <p className="text-center">Gökay Gültekin &copy; 2019-2024</p>
+        <p className="mt-2 text-center">
+          Gökay Gültekin &copy; 2019-2025
+          <br />
+          <a
+            className="text-center"
+            href="https://github.com/naphteine/gokay.works"
+          >
+            Source code
+          </a>
+        </p>
       </footer>
     </main>
   );
