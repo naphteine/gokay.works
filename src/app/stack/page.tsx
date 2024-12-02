@@ -43,13 +43,9 @@ export default function Stack() {
           <a href="https://common-lisp.net/">Common Lisp</a>
         </li>
         <li>
-          Limited knowledge: C, C++,{" "}
-          <a href="https://www.ruby-lang.org/en/">Ruby</a>
+          Limited: C, C++, <a href="https://elixir-lang.org/">Elixir</a>
         </li>
-        <li>
-          Planned: Ada, <a href="https://elixir-lang.org/">Elixir</a>,{" "}
-          <a href="https://www.rust-lang.org">Rust</a>
-        </li>
+        <li>Planned: Ada</li>
       </ul>
 
       <h2 className="mt-5 text-2xl font-semibold">Platforms</h2>
@@ -110,9 +106,8 @@ export default function Stack() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/apps/desktop">
-            GitHub Desktop (When I want a GUI)
-          </a>
+          <a href="https://github.com/apps/desktop">GitHub Desktop</a> (When I
+          want a GUI)
         </li>
         <li>
           <a href="https://logseq.com/">Logseq</a>
@@ -127,36 +122,32 @@ export default function Stack() {
           <a href="https://code.visualstudio.com/">VS Code</a>
         </li>
         <li>
-          <a href="https://www.gnu.org/software/emacs/">
-            Emacs (For Lisp + orgmode)
-          </a>
+          <a href="https://www.gnu.org/software/emacs/">Emacs</a> (For Lisp +
+          orgmode)
         </li>
         <li>
-          <a href="https://neovim.io/">Neovim or vi (For quick edit on cli)</a>
+          <a href="https://neovim.io/">Neovim</a> and vi (For quick edit on cli)
         </li>
         <li>
           <a href="https://www.blender.org/">Blender</a>
         </li>
         <li>
-          <a href="https://www.mozilla.org/en-US/firefox/">
-            Mozilla Firefox (My main since 2007)
-          </a>
+          <a href="https://www.mozilla.org/en-US/firefox/">Mozilla Firefox</a>{" "}
+          (My main since 2007)
         </li>
         <li>
-          <a href="https://www.opera.com/browsers/opera">
-            Opera (For testing Chromium)
-          </a>
+          <a href="https://www.opera.com/browsers/opera">Opera</a> (For testing
+          Chromium)
         </li>
         <li>
-          <a href="https://lynx.invisible-island.net/">
-            Lynx (For terminal only + testing)
-          </a>
+          <a href="https://lynx.invisible-island.net/">Lynx</a> (For terminal
+          only + testing)
         </li>
         <li>
           <a href="https://pnpm.io/">pnpm</a>
         </li>
         <li>
-          <a href="https://github.com/jarun/nnn">nnn (terminal file manager)</a>
+          <a href="https://github.com/jarun/nnn">nnn</a> (terminal file manager)
         </li>
       </ul>
 
@@ -169,7 +160,7 @@ export default function Stack() {
           <a href="https://man.openbsd.org/cwm">OpenBSD cwm</a>
         </li>
         <li>
-          <a href="https://www.fvwm.org/">FVWM (For special occusions)</a>
+          <a href="https://www.fvwm.org/">FVWM</a> (For special occusions)
         </li>
       </ul>
 
@@ -178,7 +169,7 @@ export default function Stack() {
       </h2>
       <ul>
         <li>
-          <a href="https://endeavouros.com/">Endeavour OS (Arch based)</a>
+          <a href="https://endeavouros.com/">Endeavour OS</a>
         </li>
         <li>
           <a href="https://openbsd.org/">OpenBSD</a>
@@ -187,7 +178,7 @@ export default function Stack() {
           <a href="https://voidlinux.org/">Void Linux</a>
         </li>
         <li>
-          <a href="https://ubuntu.com/server">Ubuntu (LTS, for servers)</a>
+          <a href="https://ubuntu.com/server">Ubuntu</a> (LTS, for servers)
         </li>
       </ul>
 
@@ -225,7 +216,7 @@ export default function Stack() {
 
       <h2 className="mt-5 text-2xl font-semibold">Hardware</h2>
       <ul>
-        <li>
+        <li className="mb-5">
           Acer Aspire E5-571G
           <ul className="list-disc mx-6">
             <li>Samsung 120GB 2.5&quot; SSD</li>
@@ -239,7 +230,7 @@ export default function Stack() {
           </ul>
         </li>
 
-        <li>
+        <li className="mb-5">
           Custom Desktop
           <ul className="list-disc mx-6">
             <li>4x ??? HDD</li>
@@ -267,10 +258,9 @@ export default function Stack() {
         <li>Philips HF3520 Wake-Up Light With Colored Sunrise</li>
         <li>Lying duck reading lamp</li>
 
-        <li>
-          Violin
+        <li className="mt-5">
+          Stentor 1550A Violin
           <ul className="list-disc mx-6">
-            <li>Stentor 1550A Violin</li>
             <li>Gewa Practice Mute</li>
             <li>BonMusica Violin Shoulder Rest</li>
           </ul>
@@ -280,22 +270,19 @@ export default function Stack() {
       <h2 className="mt-5 text-2xl font-semibold">Replaced</h2>
       <ul>
         <li>
-          <a href="https://yarnpkg.com/">yarn (replaced by pnpm)</a>
+          <a href="https://yarnpkg.com/">yarn</a> (replaced by pnpm)
         </li>
         <li>
-          <a href="https://www.npmjs.com/">npm (replaced by yarn)</a>
+          <a href="https://www.npmjs.com/">npm</a> (replaced by yarn)
         </li>
         <li>
-          <a href="https://www.freebsd.org/">
-            FreeBSD (my first Unix-like, replaced by OpenBSD)
-          </a>
+          <a href="https://www.freebsd.org/">FreeBSD</a> (my first Unix-like,
+          replaced by OpenBSD)
         </li>
         <li>
-          <a href="https://vscodium.com/">
-            VSCodium (Love it but no need on Void/Arch)
-          </a>
+          <a href="https://vscodium.com/">VSCodium</a>
         </li>
-        <li>SteelSeries Arctis 1 (My cat bite its cable)</li>
+        <li>SteelSeries Arctis 1</li>
         <li>Super Nintendo Entertainment System (SNES) Europe version</li>
         <li>FUJI XT-10 Mirrorless camera</li>
       </ul>
