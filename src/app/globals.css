@@ -21,17 +21,34 @@ body {
   background-color: hsl(var(--background));
 }
 
-main {
-  max-width: 1024px;
-  margin: auto;
+header {
   margin-top: 2.75rem;
-  margin-bottom: 2.75rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
+footer {
+  margin-bottom: 2.75rem;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+
 a {
   color: hsl(var(--link));
+}
+
+.front-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 @layer utilities {
