@@ -150,13 +150,13 @@ export default function Home() {
         Visit
       </a>
       <p>
-        Turkish-Japanese Dictionary. I was planning to make a digital, easily
-        usable dictionary for Japanese since my first year in university. There
-        were many dictionary websites and apps for English-Japanese but none for
-        my mother languge. Also my professors always pointed to shortcomings and
-        inaccurate information on these dictionaries so as someone with
-        necessary skills and knowledge I thought that I could do something
-        better.
+        Turkish-Japanese Dictionary. I have been planning to make a digital,
+        easily usable dictionary for Japanese since my first year in university.
+        There were many dictionary websites and apps for English-Japanese but
+        none for my mother language. Also my professors always pointed to
+        shortcomings and inaccurate information on these dictionaries so as
+        someone with necessary skills and knowledge I thought that I could do
+        something better.
       </p>
 
       <h3 className="text-lg font-medium mt-6">Kusuri</h3>
@@ -168,12 +168,12 @@ export default function Home() {
         Visit
       </a>
       <p>
-        Online Medicine Tracking System. This is actually remake of my final
+        Online Medicine Tracking System. This is actually a remake of my final
         project in Başkent University. Me and a classmate of mine tried to make
         a web-based application where people would sign-up and add all the
         medicines they take regularly and give them alerts for expired drugs and
         when to take them. This, in turn, would create a massive online medicine
-        catalog where everyone could use. For the first version (which we
+        catalog where everyone could use it. For the first version (which we
         delivered to our teacher) we used Go and SQLite. User interface was
         simple server-side HTML5 + CSS. We used Bootstrap 5 and{" "}
         <a href="https://undraw.co/">unDraw</a> illustrations to make it look
