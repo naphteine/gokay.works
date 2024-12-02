@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -193,35 +194,46 @@ export default function Home() {
       </p>
 
       <h2 className="text-xl font-bold mt-14">See also</h2>
-      <a className="font-semibold" href="https://www.radon-tx.com">
-        Radon Therapy
-      </a>
-      <p className="mb-3">Video games I&apos;ve made.</p>
+      <Link className="font-semibold" href="/cv">
+        Curriculum vitae
+      </Link>
+      <p className="mb-3">
+        Education and work details in standard professional manner.
+      </p>
 
-      <a className="font-semibold" href="https://blog.gokay.works">
+      <Link className="font-semibold" href="/stack">
+        Stack
+      </Link>
+      <p className="mb-3">Programs and hardware I prefer to use.</p>
+
+      <a
+        target="_blank"
+        className="font-semibold"
+        href="https://blog.gokay.works"
+      >
         Personal blog
       </a>
       <p className="mb-3">
-        I share my experiences as a developer and how I build software.
+        I share my experiences as a programmer and how I build software.
       </p>
 
-      <a className="font-semibold" href="/cv">
-        Résumé
-      </a>
-      <p className="mb-3">
-        Education and work details in standard professional manner, aka
-        curriculum vitae.
-      </p>
-
-      <a className="font-semibold" href="https://studio.gokay.works">
+      <a
+        target="_blank"
+        className="font-semibold"
+        href="https://studio.gokay.works"
+      >
         Photography
       </a>
-      <p className="mb-3">My amateur attempts at photography.</p>
+      <p className="mb-3">My attempts at photography.</p>
 
-      <a className="font-semibold" href="/stack">
-        Stack
+      <a
+        target="_blank"
+        className="font-semibold"
+        href="https://www.radon-tx.com"
+      >
+        Radon Therapy
       </a>
-      <p>Programs and hardware I prefer to use.</p>
+      <p className="mb-3">Video games I&apos;ve made.</p>
 
       <footer className="mt-14">
         <Image
