@@ -219,25 +219,17 @@ export default function Stack() {
         <li className="mb-5">
           Acer Aspire E5-571G
           <ul className="list-disc mx-6">
-            <li>Samsung 120GB 2.5&quot; SSD</li>
-            <li>Kingston 240GB A400 SATA3 2.5&quot; SA400S37 SSD</li>
-            <li>
-              Timetec 16 GB (2x8GB) DDR3L / DDR3 1600MHz PC3L-12800 / PC3-12800
-              (No ECC)
-            </li>
             <li>Intel(R) Core(TM) i5-5200U (4) @ 2.20GHz</li>
-            <li>Tp-Link TL-WN725N 150 Mbps WiFi Adapter</li>
+            <li>2x8GB DDR3 1600MHz RAM</li>
+            <li>Kingston 240GB A400 SATA3 2.5&quot; SA400S37 SSD</li>
           </ul>
         </li>
 
         <li className="mb-5">
           Custom Desktop
           <ul className="list-disc mx-6">
-            <li>4x ??? HDD</li>
-            <li>8GB ?? DDR4 RAM</li>
-            <li>
-              Patriot Viper Steel DDR4 32GB 3600MHz Single Module Gaming RAM
-            </li>
+            <li>4x HDD</li>
+            <li>40 GB DDR4 RAM</li>
             <li>AMD Ryzen 3 3200G</li>
             <li>Amd Radeon Rx 570</li>
             <li>Corsair 110R Mid-Tower ATX</li>
@@ -247,16 +239,8 @@ export default function Stack() {
           </ul>
         </li>
 
-        <li>Raspberry Pi ??? 4GB</li>
-        <li>Raspberry Pi 4 Model B 8GB</li>
+        <li>Raspberry Pi 4 Model B 4GB and 8GB</li>
         <li>NETGEAR GS108GE 8 Port Gigabit Ethernet LAN Switch</li>
-        <li>ASUS RT-N18U 600Mbps Wireless Router</li>
-        <li>Nooelec NESDR SMArt XTR Bundle</li>
-        <li>Nooelec NESDR SMArt HF Bundle</li>
-        <li>SoundPEATS Free2 Classic Bluetooth Headphone</li>
-        <li>Zippo 2004497 Gear Wheels</li>
-        <li>Philips HF3520 Wake-Up Light With Colored Sunrise</li>
-        <li>Lying duck reading lamp</li>
 
         <li className="mt-5">
           Stentor 1550A Violin
