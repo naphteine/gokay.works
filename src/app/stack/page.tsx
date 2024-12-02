@@ -251,20 +251,11 @@ export default function Stack() {
         </li>
       </ul>
 
-      <h2 className="mt-5 text-2xl font-semibold">Replaced</h2>
+      <h2 className="mt-5 text-2xl font-semibold">Historical</h2>
       <ul>
-        <li>
-          <a href="https://yarnpkg.com/">yarn</a> (replaced by pnpm)
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/">npm</a> (replaced by yarn)
-        </li>
         <li>
           <a href="https://www.freebsd.org/">FreeBSD</a> (my first Unix-like,
           replaced by OpenBSD)
-        </li>
-        <li>
-          <a href="https://vscodium.com/">VSCodium</a>
         </li>
         <li>SteelSeries Arctis 1</li>
         <li>Super Nintendo Entertainment System (SNES) Europe version</li>
