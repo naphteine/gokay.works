@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --foreground: 30, 33%, 5%;
-  --background: 0, 100%, 99%;
-  --link: 244, 70%, 51%;
+  --foreground: hsl(30, 33%, 1%);
+  --background: hsl(0, 100%, 99.8%);
+  --link: hsl(244, 70%, 51%);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: 0, 100%, 99%;
-    --background: 19, 100%, 3%;
-    --link: 357, 100%, 70%;
+    --foreground: hsl(0, 100%, 99.8%);
+    --background: hsl(0, 100%, 1.2%);
+    --link: hsl(357, 100%, 70%);
   }
 }
 
 body {
-  color: hsl(var(--foreground));
-  background-color: hsl(var(--background));
+  color: var(--foreground);
+  background-color: var(--background);
 }
 
 header {
@@ -41,7 +41,7 @@ main {
 }
 
 a {
-  color: hsl(var(--link));
+  color: var(--link);
 }
 
 .front-head {
