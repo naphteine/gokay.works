@@ -261,14 +261,6 @@ export default function Stack() {
         <li>Super Nintendo Entertainment System (SNES) Europe version</li>
         <li>FUJI XT-10 Mirrorless camera</li>
       </ul>
-
-      <footer>
-        <p className="mt-5">
-          Also check my <a href="/bookmarks">bookmarks</a>,{" "}
-          <a href="/friends">friends</a> and <a href="/lisp">Common Lisp</a>{" "}
-          pages.
-        </p>
-      </footer>
     </main>
   );
 }

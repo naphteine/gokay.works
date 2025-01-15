@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Bookmarks() {
   return (
     <main>
@@ -91,6 +93,25 @@ export default function Bookmarks() {
           </a>
         </li>
       </ul>
+
+      <h2 className="text-3xl font-bold">Friends arounds the Web</h2>
+      <ul>
+        <li>
+          <a href="https://www.uncontrollable-consequences.com/">
+            Uncontrollable Consequences
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@Buggoesbrr">@Buggoesbrr</a>
+        </li>
+        <li>
+          <a href="https://omeralperguzel.github.io/">Ömer Alper Güzel</a>
+        </li>
+      </ul>
+
+      <footer>
+        <Link href="/lisp">Also check my Common Lisp page here</Link>
+      </footer>
     </main>
   );
 }

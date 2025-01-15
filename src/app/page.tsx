@@ -215,6 +215,11 @@ export default function Home() {
         </Link>
         <p className="mb-3">Programs and hardware I prefer to use.</p>
 
+        <Link className="font-semibold" href="/bookmarks">
+          Bookmarks
+        </Link>
+        <p className="mb-3">Various resources I collected.</p>
+
         <a
           target="_blank"
           className="font-semibold"
