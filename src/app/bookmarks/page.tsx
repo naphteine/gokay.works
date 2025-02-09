@@ -109,9 +109,8 @@ export default function Bookmarks() {
         </li>
       </ul>
 
-      <footer>
-        <Link href="/lisp">Also check my Common Lisp page here</Link>
-      </footer>
+      <h2 className="text-3xl font-bold">Common Lisp</h2>
+      <Link href="/lisp">You can check my detailed Common Lisp page here</Link>
     </main>
   );
 }

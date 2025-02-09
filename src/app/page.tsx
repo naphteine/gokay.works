@@ -7,11 +7,21 @@ export default function Home() {
       <header className="sm:flex items-center justify-center">
         <div className="mr-5 sm:text-right">
           <h1 className="text-4xl md:text-5xl font-black">Gökay Gültekin</h1>
-          <h2 className="text-lg md:text-2xl">Front-end Web Developer</h2>
-          <p>ggltekn@gmail.com</p>
+          <h2 className="text-lg md:text-2xl">Front-end · Next.js</h2>
           <p>
+            Contact me via{" "}
+            <em className="special-colored">ggltekn@gmail.com</em>
+          </p>
+          <p>
+            Code at{" "}
             <a target="_blank" href="https://github.com/naphteine">
               github.com/naphteine
+            </a>
+          </p>
+          <p>
+            Blog at{" "}
+            <a target="_blank" href="https://blog.gokay.works">
+              blog.gokay.works
             </a>
           </p>
         </div>
@@ -210,6 +220,11 @@ export default function Home() {
           Education and work details in standard professional manner.
         </p>
 
+        <Link className="font-semibold" href="/edu">
+          Education
+        </Link>
+        <p className="mb-3">Detailed education history with lesson data.</p>
+
         <Link className="font-semibold" href="/stack">
           Stack
         </Link>
@@ -219,17 +234,6 @@ export default function Home() {
           Bookmarks
         </Link>
         <p className="mb-3">Various resources I collected.</p>
-
-        <a
-          target="_blank"
-          className="font-semibold"
-          href="https://blog.gokay.works"
-        >
-          Personal blog
-        </a>
-        <p className="mb-3">
-          I share my experiences as a programmer and how I build software.
-        </p>
 
         <a
           target="_blank"

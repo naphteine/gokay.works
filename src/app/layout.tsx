@@ -22,6 +22,7 @@ export default function RootLayout({
         {children}
         <SpeedInsights />
       </body>
+
       <Script
         defer
         src="https://umi.gokay.works/script.js"

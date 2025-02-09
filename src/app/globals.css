@@ -49,6 +49,10 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.special-colored {
+  color: var(--link);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
