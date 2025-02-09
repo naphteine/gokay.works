@@ -240,7 +240,7 @@ export default function Home() {
           className="font-semibold"
           href="https://studio.gokay.works"
         >
-          Photography
+          Studio
         </a>
         <p className="mb-3">My attempts at photography.</p>
 
